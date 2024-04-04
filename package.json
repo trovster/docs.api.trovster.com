@@ -1,0 +1,33 @@
+{
+  "name": "docs.api.trovster.com",
+  "version": "0.0.0",
+  "description": "The documentation for the API on trovster.com. This is auto-generated using an Open API Spec.",
+  "homepage": "https://docs.api.trovster.com",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trovster/docs.api.trovster.com.git"
+  },
+  "author": {
+    "name": "Trevor Morris",
+    "email": "code@trovster.com",
+    "url": "https://www.trovster.com"
+  },
+  "keywords": [
+    "docs",
+    "documentation",
+    "api",
+    "openapi"
+  ],
+  "scripts": {
+    "start": "node build.js && npx http-server build -o",
+    "build": "NODE_ENV=production node build.js",
+    "test": "echo \"Warning: No tests\" && exit 0"
+  },
+  "dependencies": {
+    "@stoplight/elements": "^8.1.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
