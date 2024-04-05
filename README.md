@@ -6,4 +6,5 @@ API on trovster.com.
 The [Open API](https://www.openapis.org) specification is automatically generated
 using [Scribe](https://scribe.knuckles.wtf/laravel) and pushed to this repository.
 
-A workflow is used to build and deploy the documentation to GitHub Pages using ???.
+A workflow is used to build and deploy the documentation to GitHub Pages using
+[Elements by Spotlight](https://stoplight.io/open-source/elements).
