@@ -30,6 +30,9 @@ jobs:
       - name: Copy CNAME
         run: cp CNAME ./build/
 
+      - name: Remove .gitignore
+        run: rm ./build/.gitignore
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
