@@ -24,10 +24,9 @@
     "build": "NODE_ENV=production node build.js",
     "test": "echo \"Warning: No tests\" && exit 0"
   },
-  "dependencies": {
-    "@stoplight/elements": "^8.1.0"
-  },
   "devDependencies": {
+    "@stoplight/elements": "^8.1.0",
+    "fs-extra": "^11.2.0",
     "http-server": "^14.1.1"
   }
 }
