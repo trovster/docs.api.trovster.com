@@ -88,29 +88,29 @@ paths:
                 example:
                   data:
                     -
-                      id: 2815
-                      title: 'ex ipsam repudiandae'
-                      date: '2014-06-28T22:37:05+00:00'
-                      summary: 'Cycled for 9 seconds on 28th June 2014.'
-                      speed: 83.7957724
-                      distance: 0.001242742384
-                      timeMoving: 0.15
-                      type: Ride
-                      links:
-                        self: 'http://api.trovster.com/activities/3293'
-                        permalink: 'http://www.trovster.com/activities/3293'
-                    -
-                      id: 2816
-                      title: 'beatae quia est'
-                      date: '2023-11-21T14:38:25+00:00'
-                      summary: 'Cycled for 1 second on 21st November 2023.'
-                      speed: 33.3751448
-                      distance: 0.003728227152
-                      timeMoving: 0.016666666666667
+                      id: 2822
+                      title: 'minus id quia'
+                      date: '2024-08-03T07:38:29+00:00'
+                      summary: 'Cycled for 2 seconds on 3rd August 2024.'
+                      speed: 9.2609316
+                      distance: 0.004970969536
+                      timeMoving: 0.033333333333333
                       type: 'E-Bike Ride'
                       links:
-                        self: 'http://api.trovster.com/activities/74'
-                        permalink: 'http://www.trovster.com/activities/74'
+                        self: 'http://api.trovster.com/activities/9'
+                        permalink: 'http://www.trovster.com/activities/9'
+                    -
+                      id: 2823
+                      title: 'corporis molestias non'
+                      date: '2024-07-29T17:09:01+00:00'
+                      summary: 'Cycled for 8 seconds on 29th July 2024.'
+                      speed: 108.9166086
+                      distance: 0.00310685596
+                      timeMoving: 0.13333333333333
+                      type: 'E-Bike Ride'
+                      links:
+                        self: 'http://api.trovster.com/activities/85245829'
+                        permalink: 'http://www.trovster.com/activities/85245829'
                   links:
                     first: '/?page=1'
                     last: '/?page=1'
@@ -142,65 +142,65 @@ paths:
                     type: array
                     example:
                       -
-                        id: 2815
-                        title: 'ex ipsam repudiandae'
-                        date: '2014-06-28T22:37:05+00:00'
-                        summary: 'Cycled for 9 seconds on 28th June 2014.'
-                        speed: 83.7957724
-                        distance: 0.001242742384
-                        timeMoving: 0.15
-                        type: Ride
-                        links:
-                          self: 'http://api.trovster.com/activities/3293'
-                          permalink: 'http://www.trovster.com/activities/3293'
-                      -
-                        id: 2816
-                        title: 'beatae quia est'
-                        date: '2023-11-21T14:38:25+00:00'
-                        summary: 'Cycled for 1 second on 21st November 2023.'
-                        speed: 33.3751448
-                        distance: 0.003728227152
-                        timeMoving: 0.016666666666667
+                        id: 2822
+                        title: 'minus id quia'
+                        date: '2024-08-03T07:38:29+00:00'
+                        summary: 'Cycled for 2 seconds on 3rd August 2024.'
+                        speed: 9.2609316
+                        distance: 0.004970969536
+                        timeMoving: 0.033333333333333
                         type: 'E-Bike Ride'
                         links:
-                          self: 'http://api.trovster.com/activities/74'
-                          permalink: 'http://www.trovster.com/activities/74'
+                          self: 'http://api.trovster.com/activities/9'
+                          permalink: 'http://www.trovster.com/activities/9'
+                      -
+                        id: 2823
+                        title: 'corporis molestias non'
+                        date: '2024-07-29T17:09:01+00:00'
+                        summary: 'Cycled for 8 seconds on 29th July 2024.'
+                        speed: 108.9166086
+                        distance: 0.00310685596
+                        timeMoving: 0.13333333333333
+                        type: 'E-Bike Ride'
+                        links:
+                          self: 'http://api.trovster.com/activities/85245829'
+                          permalink: 'http://www.trovster.com/activities/85245829'
                     items:
                       type: object
                       properties:
                         id:
                           type: integer
-                          example: 2815
+                          example: 2822
                         title:
                           type: string
-                          example: 'ex ipsam repudiandae'
+                          example: 'minus id quia'
                         date:
                           type: string
-                          example: '2014-06-28T22:37:05+00:00'
+                          example: '2024-08-03T07:38:29+00:00'
                         summary:
                           type: string
-                          example: 'Cycled for 9 seconds on 28th June 2014.'
+                          example: 'Cycled for 2 seconds on 3rd August 2024.'
                         speed:
                           type: number
-                          example: 83.7957724
+                          example: 9.2609316
                         distance:
                           type: number
-                          example: 0.001242742384
+                          example: 0.004970969536
                         timeMoving:
                           type: number
-                          example: 0.15
+                          example: 0.033333333333333
                         type:
                           type: string
-                          example: Ride
+                          example: 'E-Bike Ride'
                         links:
                           type: object
                           properties:
                             self:
                               type: string
-                              example: 'http://api.trovster.com/activities/3293'
+                              example: 'http://api.trovster.com/activities/9'
                             permalink:
                               type: string
-                              example: 'http://www.trovster.com/activities/3293'
+                              example: 'http://www.trovster.com/activities/9'
                   links:
                     type: object
                     properties:
@@ -284,49 +284,49 @@ paths:
                 type: object
                 example:
                   data:
-                    id: 2817
-                    title: 'quo sapiente quis'
-                    date: '2017-12-14T23:07:49+00:00'
-                    summary: 'Walked for 8 seconds on 14th December 2017.'
-                    speed: 0.6934514
-                    distance: 0.00310685596
-                    timeMoving: 0.13333333333333
-                    html: "<p>In omnis quis repellat error officiis dolore maxime. Aspernatur et delectus dolor temporibus. Aut sit vitae qui nihil iure ex. Officia quia qui inventore cupiditate repellat in quia.</p>\n"
+                    id: 2824
+                    title: 'libero delectus quis'
+                    date: '2024-07-30T19:38:28+00:00'
+                    summary: 'Walked for 9 seconds on 30th July 2024.'
+                    speed: 100.326759
+                    distance: 0.004349598344
+                    timeMoving: 0.15
+                    html: "<p>Ea consequatur soluta labore dolores eligendi. Dolor consectetur sequi rerum. A accusantium enim hic beatae. Optio alias molestias amet quia consequatur sunt.</p>\n"
                     polyline: ''
                     type:
-                      id: 145
+                      id: 37
                       name: Walk
                     links:
-                      self: 'http://api.trovster.com/activities/755375'
-                      permalink: 'http://www.trovster.com/activities/755375'
+                      self: 'http://api.trovster.com/activities/9846'
+                      permalink: 'http://www.trovster.com/activities/9846'
                 properties:
                   data:
                     type: object
                     properties:
                       id:
                         type: integer
-                        example: 2817
+                        example: 2824
                       title:
                         type: string
-                        example: 'quo sapiente quis'
+                        example: 'libero delectus quis'
                       date:
                         type: string
-                        example: '2017-12-14T23:07:49+00:00'
+                        example: '2024-07-30T19:38:28+00:00'
                       summary:
                         type: string
-                        example: 'Walked for 8 seconds on 14th December 2017.'
+                        example: 'Walked for 9 seconds on 30th July 2024.'
                       speed:
                         type: number
-                        example: 0.6934514
+                        example: 100.326759
                       distance:
                         type: number
-                        example: 0.00310685596
+                        example: 0.004349598344
                       timeMoving:
                         type: number
-                        example: 0.13333333333333
+                        example: 0.15
                       html:
                         type: string
-                        example: "<p>In omnis quis repellat error officiis dolore maxime. Aspernatur et delectus dolor temporibus. Aut sit vitae qui nihil iure ex. Officia quia qui inventore cupiditate repellat in quia.</p>\n"
+                        example: "<p>Ea consequatur soluta labore dolores eligendi. Dolor consectetur sequi rerum. A accusantium enim hic beatae. Optio alias molestias amet quia consequatur sunt.</p>\n"
                       polyline:
                         type: string
                         example: ''
@@ -335,7 +335,7 @@ paths:
                         properties:
                           id:
                             type: integer
-                            example: 145
+                            example: 37
                           name:
                             type: string
                             example: Walk
@@ -344,10 +344,10 @@ paths:
                         properties:
                           self:
                             type: string
-                            example: 'http://api.trovster.com/activities/755375'
+                            example: 'http://api.trovster.com/activities/9846'
                           permalink:
                             type: string
-                            example: 'http://www.trovster.com/activities/755375'
+                            example: 'http://www.trovster.com/activities/9846'
       tags:
         - Activities
     parameters:
@@ -378,24 +378,24 @@ paths:
                       version: 15
                       current: true
                       size: 2120
-                      slug: cum-deserunt-est-labore-quo-et-architecto-natus
+                      slug: voluptatibus-et-aut-et-ad-non-molestiae-qui
                       url: /storage/example.jpg
                       alt: Blended
                       height: 73
                       width: 73
                       links:
-                        self: 'http://api.trovster.com/avatars/cum-deserunt-est-labore-quo-et-architecto-natus'
+                        self: 'http://api.trovster.com/avatars/voluptatibus-et-aut-et-ad-non-molestiae-qui'
                     -
                       version: 15
                       current: true
                       size: 2120
-                      slug: ipsum-quaerat-omnis-rem-dolore-et-est-ex
+                      slug: recusandae-amet-quasi-dolorem-ipsam-alias-recusandae
                       url: /storage/example.jpg
                       alt: Blended
                       height: 73
                       width: 73
                       links:
-                        self: 'http://api.trovster.com/avatars/ipsum-quaerat-omnis-rem-dolore-et-est-ex'
+                        self: 'http://api.trovster.com/avatars/recusandae-amet-quasi-dolorem-ipsam-alias-recusandae'
                 properties:
                   data:
                     type: array
@@ -404,24 +404,24 @@ paths:
                         version: 15
                         current: true
                         size: 2120
-                        slug: cum-deserunt-est-labore-quo-et-architecto-natus
+                        slug: voluptatibus-et-aut-et-ad-non-molestiae-qui
                         url: /storage/example.jpg
                         alt: Blended
                         height: 73
                         width: 73
                         links:
-                          self: 'http://api.trovster.com/avatars/cum-deserunt-est-labore-quo-et-architecto-natus'
+                          self: 'http://api.trovster.com/avatars/voluptatibus-et-aut-et-ad-non-molestiae-qui'
                       -
                         version: 15
                         current: true
                         size: 2120
-                        slug: ipsum-quaerat-omnis-rem-dolore-et-est-ex
+                        slug: recusandae-amet-quasi-dolorem-ipsam-alias-recusandae
                         url: /storage/example.jpg
                         alt: Blended
                         height: 73
                         width: 73
                         links:
-                          self: 'http://api.trovster.com/avatars/ipsum-quaerat-omnis-rem-dolore-et-est-ex'
+                          self: 'http://api.trovster.com/avatars/recusandae-amet-quasi-dolorem-ipsam-alias-recusandae'
                     items:
                       type: object
                       properties:
@@ -436,7 +436,7 @@ paths:
                           example: 2120
                         slug:
                           type: string
-                          example: cum-deserunt-est-labore-quo-et-architecto-natus
+                          example: voluptatibus-et-aut-et-ad-non-molestiae-qui
                         url:
                           type: string
                           example: /storage/example.jpg
@@ -454,7 +454,7 @@ paths:
                           properties:
                             self:
                               type: string
-                              example: 'http://api.trovster.com/avatars/cum-deserunt-est-labore-quo-et-architecto-natus'
+                              example: 'http://api.trovster.com/avatars/voluptatibus-et-aut-et-ad-non-molestiae-qui'
       tags:
         - Avatars
   '/avatars/{slug}':
@@ -475,13 +475,13 @@ paths:
                     version: 15
                     current: true
                     size: 2120
-                    slug: magnam-corrupti-molestiae-incidunt
+                    slug: facere-officiis-aliquid-nam-et
                     url: /storage/example.jpg
                     alt: Blended
                     height: 73
                     width: 73
                     links:
-                      self: 'http://api.trovster.com/avatars/magnam-corrupti-molestiae-incidunt'
+                      self: 'http://api.trovster.com/avatars/facere-officiis-aliquid-nam-et'
                 properties:
                   data:
                     type: object
@@ -497,7 +497,7 @@ paths:
                         example: 2120
                       slug:
                         type: string
-                        example: magnam-corrupti-molestiae-incidunt
+                        example: facere-officiis-aliquid-nam-et
                       url:
                         type: string
                         example: /storage/example.jpg
@@ -515,7 +515,7 @@ paths:
                         properties:
                           self:
                             type: string
-                            example: 'http://api.trovster.com/avatars/magnam-corrupti-molestiae-incidunt'
+                            example: 'http://api.trovster.com/avatars/facere-officiis-aliquid-nam-et'
       tags:
         - Avatars
     parameters:
@@ -543,27 +543,27 @@ paths:
                 example:
                   data:
                     -
-                      id: 544
-                      title: 'Repudiandae dicta ullam omnis nihil ea qui.'
-                      date: '2024-01-15T19:50:22+00:00'
-                      summary: 'Placeat nulla pariatur veritatis mollitia. Harum hic est voluptatem et. Repudiandae consequatur unde voluptatum sint doloribus totam velit sint. Et inventore optio dolorem maiores. Consequun…'
-                      wordCount: 236
+                      id: 442
+                      title: 'Delectus deserunt amet quasi sunt assumenda ducimus facilis.'
+                      date: '2024-08-01T13:38:58+00:00'
+                      summary: 'Ducimus reiciendis et ex omnis similique velit excepturi. Nostrum et sit alias eveniet illum similique rerum. Hic occaecati animi illo nulla dolor esse tempora. A facere qui ut molestiae. Re…'
+                      wordCount: 225
                       categories:
-                        - aut
+                        - velit
                       links:
-                        self: 'http://api.trovster.com/blog/544'
-                        permalink: 'http://www.trovster.com/blog/2024/01/repudiandae-dicta-ullam-omnis-nihil-ea-qui'
+                        self: 'http://api.trovster.com/blog/442'
+                        permalink: 'http://www.trovster.com/blog/2024/08/delectus-deserunt-amet-quasi-sunt-assumenda-ducimus-facilis'
                     -
-                      id: 545
-                      title: 'Earum facilis voluptatem molestias culpa et ut quam aut.'
-                      date: '2024-04-20T21:26:27+00:00'
-                      summary: 'Autem harum nihil a libero. Placeat fugit fugit quo voluptatem animi id et cumque. Animi doloribus maiores autem eveniet sapiente praesentium. Dolorem perspiciatis quis vel est non corporis…'
-                      wordCount: 224
+                      id: 443
+                      title: 'Est ut velit fuga aut autem pariatur est.'
+                      date: '2024-07-29T23:41:37+00:00'
+                      summary: 'Praesentium corrupti sunt fugiat aut. Cum suscipit fuga non reiciendis neque. Itaque quidem incidunt voluptas ut vero dicta soluta. Dicta beatae autem ab illum blanditiis reiciendis. Ratione…'
+                      wordCount: 260
                       categories:
-                        - et
+                        - voluptas
                       links:
-                        self: 'http://api.trovster.com/blog/545'
-                        permalink: 'http://www.trovster.com/blog/2024/04/earum-facilis-voluptatem-molestias-culpa-et-ut-quam-aut'
+                        self: 'http://api.trovster.com/blog/443'
+                        permalink: 'http://www.trovster.com/blog/2024/07/est-ut-velit-fuga-aut-autem-pariatur-est'
                   links:
                     first: '/?page=1'
                     last: '/?page=1'
@@ -595,49 +595,49 @@ paths:
                     type: array
                     example:
                       -
-                        id: 544
-                        title: 'Repudiandae dicta ullam omnis nihil ea qui.'
-                        date: '2024-01-15T19:50:22+00:00'
-                        summary: 'Placeat nulla pariatur veritatis mollitia. Harum hic est voluptatem et. Repudiandae consequatur unde voluptatum sint doloribus totam velit sint. Et inventore optio dolorem maiores. Consequun…'
-                        wordCount: 236
+                        id: 442
+                        title: 'Delectus deserunt amet quasi sunt assumenda ducimus facilis.'
+                        date: '2024-08-01T13:38:58+00:00'
+                        summary: 'Ducimus reiciendis et ex omnis similique velit excepturi. Nostrum et sit alias eveniet illum similique rerum. Hic occaecati animi illo nulla dolor esse tempora. A facere qui ut molestiae. Re…'
+                        wordCount: 225
                         categories:
-                          - aut
+                          - velit
                         links:
-                          self: 'http://api.trovster.com/blog/544'
-                          permalink: 'http://www.trovster.com/blog/2024/01/repudiandae-dicta-ullam-omnis-nihil-ea-qui'
+                          self: 'http://api.trovster.com/blog/442'
+                          permalink: 'http://www.trovster.com/blog/2024/08/delectus-deserunt-amet-quasi-sunt-assumenda-ducimus-facilis'
                       -
-                        id: 545
-                        title: 'Earum facilis voluptatem molestias culpa et ut quam aut.'
-                        date: '2024-04-20T21:26:27+00:00'
-                        summary: 'Autem harum nihil a libero. Placeat fugit fugit quo voluptatem animi id et cumque. Animi doloribus maiores autem eveniet sapiente praesentium. Dolorem perspiciatis quis vel est non corporis…'
-                        wordCount: 224
+                        id: 443
+                        title: 'Est ut velit fuga aut autem pariatur est.'
+                        date: '2024-07-29T23:41:37+00:00'
+                        summary: 'Praesentium corrupti sunt fugiat aut. Cum suscipit fuga non reiciendis neque. Itaque quidem incidunt voluptas ut vero dicta soluta. Dicta beatae autem ab illum blanditiis reiciendis. Ratione…'
+                        wordCount: 260
                         categories:
-                          - et
+                          - voluptas
                         links:
-                          self: 'http://api.trovster.com/blog/545'
-                          permalink: 'http://www.trovster.com/blog/2024/04/earum-facilis-voluptatem-molestias-culpa-et-ut-quam-aut'
+                          self: 'http://api.trovster.com/blog/443'
+                          permalink: 'http://www.trovster.com/blog/2024/07/est-ut-velit-fuga-aut-autem-pariatur-est'
                     items:
                       type: object
                       properties:
                         id:
                           type: integer
-                          example: 544
+                          example: 442
                         title:
                           type: string
-                          example: 'Repudiandae dicta ullam omnis nihil ea qui.'
+                          example: 'Delectus deserunt amet quasi sunt assumenda ducimus facilis.'
                         date:
                           type: string
-                          example: '2024-01-15T19:50:22+00:00'
+                          example: '2024-08-01T13:38:58+00:00'
                         summary:
                           type: string
-                          example: 'Placeat nulla pariatur veritatis mollitia. Harum hic est voluptatem et. Repudiandae consequatur unde voluptatum sint doloribus totam velit sint. Et inventore optio dolorem maiores. Consequun…'
+                          example: 'Ducimus reiciendis et ex omnis similique velit excepturi. Nostrum et sit alias eveniet illum similique rerum. Hic occaecati animi illo nulla dolor esse tempora. A facere qui ut molestiae. Re…'
                         wordCount:
                           type: integer
-                          example: 236
+                          example: 225
                         categories:
                           type: array
                           example:
-                            - aut
+                            - velit
                           items:
                             type: string
                         links:
@@ -645,10 +645,10 @@ paths:
                           properties:
                             self:
                               type: string
-                              example: 'http://api.trovster.com/blog/544'
+                              example: 'http://api.trovster.com/blog/442'
                             permalink:
                               type: string
-                              example: 'http://www.trovster.com/blog/2024/01/repudiandae-dicta-ullam-omnis-nihil-ea-qui'
+                              example: 'http://www.trovster.com/blog/2024/08/delectus-deserunt-amet-quasi-sunt-assumenda-ducimus-facilis'
                   links:
                     type: object
                     properties:
@@ -732,65 +732,65 @@ paths:
                 type: object
                 example:
                   data:
-                    id: 546
-                    title: 'Ratione animi labore earum nesciunt asperiores a.'
-                    date: '2024-01-15T20:22:38+00:00'
-                    summary: 'Perspiciatis aut totam voluptas provident. Incidunt et commodi a quae ipsa. Dolorem quis fugit commodi. Et voluptates ea officia minus reiciendis voluptatem et. Rerum sint repellendus et con…'
-                    wordCount: 206
-                    html: "<p>Perspiciatis aut totam voluptas provident. Incidunt et commodi a quae ipsa. Dolorem quis fugit commodi. Et voluptates ea officia minus reiciendis voluptatem et.</p>\n<p>Rerum sint repellendus et consectetur. Veritatis sit vitae excepturi. Repellendus suscipit animi eum distinctio consectetur et.</p>\n<p>Molestiae error consectetur perferendis incidunt dolores ut. Doloribus ut aut quo quis. Et natus quisquam aut sunt est doloribus aut. Consequuntur ipsum iusto labore fuga.</p>\n<p>Inventore necessitatibus et fugiat provident iusto consequatur. Tempore illum sed sit earum. Expedita unde magni fugiat nihil sit deserunt vel. Aspernatur voluptas illum dolor dolorem fugit in cumque perferendis.</p>\n<p>Similique aut modi a vel mollitia quo maiores. Pariatur sint vitae accusantium corporis.</p>\n<p>Eligendi iste ut numquam illo earum. Nemo aspernatur itaque exercitationem quasi qui. Quibusdam qui laborum expedita recusandae minus eum. Nemo veniam rerum repudiandae soluta.</p>\n<p>Et modi labore dolorem sit nulla molestiae aut. Possimus quia itaque explicabo at in consequatur inventore. Aspernatur quae impedit et aut.</p>\n<p>Facilis reiciendis eum expedita accusantium possimus natus. Quis qui blanditiis magnam eaque sit.</p>\n<p>Sed non nesciunt perferendis animi. Asperiores similique ut vero dolorum amet. Consectetur atque animi eum inventore commodi accusamus expedita. Sint laborum earum nemo voluptas enim sit ut.</p>\n<p>Praesentium qui aut porro. Est debitis in nam ullam ullam. Provident molestias aut suscipit possimus.</p>\n"
+                    id: 444
+                    title: 'Quos soluta ut qui esse.'
+                    date: '2024-07-29T04:04:35+00:00'
+                    summary: 'Et quisquam numquam illum porro et qui est. Eum non dolorum minus possimus. Aut omnis corporis consequatur dolorem qui. Delectus sit et pariatur et exercitationem et. Nulla perspiciatis amet…'
+                    wordCount: 240
+                    html: "<p>Et quisquam numquam illum porro et qui est. Eum non dolorum minus possimus. Aut omnis corporis consequatur dolorem qui. Delectus sit et pariatur et exercitationem et.</p>\n<p>Nulla perspiciatis amet enim alias amet dolor rerum laboriosam. Ut debitis reiciendis eligendi veniam. Qui voluptatem omnis fuga soluta animi suscipit voluptatem. Consequuntur nesciunt voluptas reiciendis ducimus facere.</p>\n<p>Fugit illum consequuntur repudiandae exercitationem doloribus. Ratione et et ab voluptates error voluptatem facilis. Deserunt dolorum molestiae itaque veritatis consequatur.</p>\n<p>Ut voluptatum soluta quas eos. Repellat aperiam nisi cumque qui harum minima accusamus sunt. Autem aliquid quo a veniam quia occaecati et.</p>\n<p>Nisi explicabo dolores mollitia voluptas. Aut accusantium libero enim corrupti est aliquam. Eum velit numquam non alias esse veritatis. Adipisci accusantium perspiciatis quae asperiores quas consequatur nihil.</p>\n<p>Eum omnis odit dolores eos occaecati qui amet quas. Aut eos labore ratione et nemo et in. Doloremque placeat soluta cupiditate eum.</p>\n<p>Et voluptas ex sequi omnis occaecati molestias repellendus. Qui nihil magnam aut quas dolores aut voluptatem. Ratione error quis ea atque voluptatem ut. Voluptatem qui blanditiis voluptatem dicta debitis assumenda.</p>\n<p>Similique libero officiis deserunt magni alias magnam sint iure. Temporibus ea laudantium perferendis. Blanditiis iure adipisci delectus dolore dolor.</p>\n<p>Rerum sed et occaecati fuga. Recusandae suscipit aut iusto et enim delectus consequuntur. Quaerat et necessitatibus et ut exercitationem tempore. Dolores non numquam suscipit ad.</p>\n<p>Nemo assumenda laboriosam ullam suscipit magnam nulla consectetur. Voluptas est ad doloribus saepe quibusdam et. Sed qui vero omnis quam qui.</p>\n"
                     categories:
                       -
-                        id: 261
-                        name: ut
+                        id: 154
+                        name: est
                     links:
-                      self: 'http://api.trovster.com/blog/546'
-                      permalink: 'http://www.trovster.com/blog/2024/01/ratione-animi-labore-earum-nesciunt-asperiores-a'
+                      self: 'http://api.trovster.com/blog/444'
+                      permalink: 'http://www.trovster.com/blog/2024/07/quos-soluta-ut-qui-esse'
                 properties:
                   data:
                     type: object
                     properties:
                       id:
                         type: integer
-                        example: 546
+                        example: 444
                       title:
                         type: string
-                        example: 'Ratione animi labore earum nesciunt asperiores a.'
+                        example: 'Quos soluta ut qui esse.'
                       date:
                         type: string
-                        example: '2024-01-15T20:22:38+00:00'
+                        example: '2024-07-29T04:04:35+00:00'
                       summary:
                         type: string
-                        example: 'Perspiciatis aut totam voluptas provident. Incidunt et commodi a quae ipsa. Dolorem quis fugit commodi. Et voluptates ea officia minus reiciendis voluptatem et. Rerum sint repellendus et con…'
+                        example: 'Et quisquam numquam illum porro et qui est. Eum non dolorum minus possimus. Aut omnis corporis consequatur dolorem qui. Delectus sit et pariatur et exercitationem et. Nulla perspiciatis amet…'
                       wordCount:
                         type: integer
-                        example: 206
+                        example: 240
                       html:
                         type: string
-                        example: "<p>Perspiciatis aut totam voluptas provident. Incidunt et commodi a quae ipsa. Dolorem quis fugit commodi. Et voluptates ea officia minus reiciendis voluptatem et.</p>\n<p>Rerum sint repellendus et consectetur. Veritatis sit vitae excepturi. Repellendus suscipit animi eum distinctio consectetur et.</p>\n<p>Molestiae error consectetur perferendis incidunt dolores ut. Doloribus ut aut quo quis. Et natus quisquam aut sunt est doloribus aut. Consequuntur ipsum iusto labore fuga.</p>\n<p>Inventore necessitatibus et fugiat provident iusto consequatur. Tempore illum sed sit earum. Expedita unde magni fugiat nihil sit deserunt vel. Aspernatur voluptas illum dolor dolorem fugit in cumque perferendis.</p>\n<p>Similique aut modi a vel mollitia quo maiores. Pariatur sint vitae accusantium corporis.</p>\n<p>Eligendi iste ut numquam illo earum. Nemo aspernatur itaque exercitationem quasi qui. Quibusdam qui laborum expedita recusandae minus eum. Nemo veniam rerum repudiandae soluta.</p>\n<p>Et modi labore dolorem sit nulla molestiae aut. Possimus quia itaque explicabo at in consequatur inventore. Aspernatur quae impedit et aut.</p>\n<p>Facilis reiciendis eum expedita accusantium possimus natus. Quis qui blanditiis magnam eaque sit.</p>\n<p>Sed non nesciunt perferendis animi. Asperiores similique ut vero dolorum amet. Consectetur atque animi eum inventore commodi accusamus expedita. Sint laborum earum nemo voluptas enim sit ut.</p>\n<p>Praesentium qui aut porro. Est debitis in nam ullam ullam. Provident molestias aut suscipit possimus.</p>\n"
+                        example: "<p>Et quisquam numquam illum porro et qui est. Eum non dolorum minus possimus. Aut omnis corporis consequatur dolorem qui. Delectus sit et pariatur et exercitationem et.</p>\n<p>Nulla perspiciatis amet enim alias amet dolor rerum laboriosam. Ut debitis reiciendis eligendi veniam. Qui voluptatem omnis fuga soluta animi suscipit voluptatem. Consequuntur nesciunt voluptas reiciendis ducimus facere.</p>\n<p>Fugit illum consequuntur repudiandae exercitationem doloribus. Ratione et et ab voluptates error voluptatem facilis. Deserunt dolorum molestiae itaque veritatis consequatur.</p>\n<p>Ut voluptatum soluta quas eos. Repellat aperiam nisi cumque qui harum minima accusamus sunt. Autem aliquid quo a veniam quia occaecati et.</p>\n<p>Nisi explicabo dolores mollitia voluptas. Aut accusantium libero enim corrupti est aliquam. Eum velit numquam non alias esse veritatis. Adipisci accusantium perspiciatis quae asperiores quas consequatur nihil.</p>\n<p>Eum omnis odit dolores eos occaecati qui amet quas. Aut eos labore ratione et nemo et in. Doloremque placeat soluta cupiditate eum.</p>\n<p>Et voluptas ex sequi omnis occaecati molestias repellendus. Qui nihil magnam aut quas dolores aut voluptatem. Ratione error quis ea atque voluptatem ut. Voluptatem qui blanditiis voluptatem dicta debitis assumenda.</p>\n<p>Similique libero officiis deserunt magni alias magnam sint iure. Temporibus ea laudantium perferendis. Blanditiis iure adipisci delectus dolore dolor.</p>\n<p>Rerum sed et occaecati fuga. Recusandae suscipit aut iusto et enim delectus consequuntur. Quaerat et necessitatibus et ut exercitationem tempore. Dolores non numquam suscipit ad.</p>\n<p>Nemo assumenda laboriosam ullam suscipit magnam nulla consectetur. Voluptas est ad doloribus saepe quibusdam et. Sed qui vero omnis quam qui.</p>\n"
                       categories:
                         type: array
                         example:
                           -
-                            id: 261
-                            name: ut
+                            id: 154
+                            name: est
                         items:
                           type: object
                           properties:
                             id:
                               type: integer
-                              example: 261
+                              example: 154
                             name:
                               type: string
-                              example: ut
+                              example: est
                       links:
                         type: object
                         properties:
                           self:
                             type: string
-                            example: 'http://api.trovster.com/blog/546'
+                            example: 'http://api.trovster.com/blog/444'
                           permalink:
                             type: string
-                            example: 'http://www.trovster.com/blog/2024/01/ratione-animi-labore-earum-nesciunt-asperiores-a'
+                            example: 'http://www.trovster.com/blog/2024/07/quos-soluta-ut-qui-esse'
       tags:
         - Blog
     parameters:
@@ -818,23 +818,23 @@ paths:
                 example:
                   data:
                     -
-                      id: 246
-                      isbn: '9795951631243'
-                      title: 'Quos cumque cum excepturi et asperiores esse ut.'
-                      summary: 'Blanditiis qui earum impedit ea quis. Reiciendis tenetur ut est repellat assumenda blanditiis consequatur velit. Et rem perspiciatis ipsa rerum exercitationem alias quod. Et molestias nesciunt labore et.'
-                      pageCount: 8
+                      id: 158
+                      isbn: '9799144539880'
+                      title: 'Quia tenetur non modi provident.'
+                      summary: 'Eos fugit itaque tempora quod. Voluptatum nobis laudantium accusantium placeat magni molestiae aspernatur est. Nulla et asperiores et eaque.'
+                      pageCount: 1
                       links:
-                        self: 'http://api.trovster.com/books/9795951631243'
-                        permalink: 'http://www.trovster.com/books/9795951631243/ea-quo-vitae-officia-delectus-quo-natus-asperiores'
+                        self: 'http://api.trovster.com/books/9799144539880'
+                        permalink: 'http://www.trovster.com/books/9799144539880/accusantium-quos-eius-repellat-reiciendis'
                     -
-                      id: 247
-                      isbn: '9798927461059'
-                      title: 'Aperiam sequi placeat rerum cum id facilis provident.'
-                      summary: 'Et cumque dolorem vitae. Aperiam nihil ea veritatis expedita qui eum et. Quia minima sit aut est id quidem consequatur. Non amet dignissimos atque a nobis et.'
-                      pageCount: 9
+                      id: 159
+                      isbn: '9786420625689'
+                      title: 'Quas accusantium maiores tempore libero enim reprehenderit.'
+                      summary: 'Nemo sint sed iusto eveniet velit. Labore ut cum quod. Fuga earum sint qui aspernatur. Odio nisi maiores sint labore officiis amet.'
+                      pageCount: 7
                       links:
-                        self: 'http://api.trovster.com/books/9798927461059'
-                        permalink: 'http://www.trovster.com/books/9798927461059/et-et-repellat-atque'
+                        self: 'http://api.trovster.com/books/9786420625689'
+                        permalink: 'http://www.trovster.com/books/9786420625689/repellat-qui-quo-ex-cumque'
                   links:
                     first: '/?page=1'
                     last: '/?page=1'
@@ -866,50 +866,50 @@ paths:
                     type: array
                     example:
                       -
-                        id: 246
-                        isbn: '9795951631243'
-                        title: 'Quos cumque cum excepturi et asperiores esse ut.'
-                        summary: 'Blanditiis qui earum impedit ea quis. Reiciendis tenetur ut est repellat assumenda blanditiis consequatur velit. Et rem perspiciatis ipsa rerum exercitationem alias quod. Et molestias nesciunt labore et.'
-                        pageCount: 8
+                        id: 158
+                        isbn: '9799144539880'
+                        title: 'Quia tenetur non modi provident.'
+                        summary: 'Eos fugit itaque tempora quod. Voluptatum nobis laudantium accusantium placeat magni molestiae aspernatur est. Nulla et asperiores et eaque.'
+                        pageCount: 1
                         links:
-                          self: 'http://api.trovster.com/books/9795951631243'
-                          permalink: 'http://www.trovster.com/books/9795951631243/ea-quo-vitae-officia-delectus-quo-natus-asperiores'
+                          self: 'http://api.trovster.com/books/9799144539880'
+                          permalink: 'http://www.trovster.com/books/9799144539880/accusantium-quos-eius-repellat-reiciendis'
                       -
-                        id: 247
-                        isbn: '9798927461059'
-                        title: 'Aperiam sequi placeat rerum cum id facilis provident.'
-                        summary: 'Et cumque dolorem vitae. Aperiam nihil ea veritatis expedita qui eum et. Quia minima sit aut est id quidem consequatur. Non amet dignissimos atque a nobis et.'
-                        pageCount: 9
+                        id: 159
+                        isbn: '9786420625689'
+                        title: 'Quas accusantium maiores tempore libero enim reprehenderit.'
+                        summary: 'Nemo sint sed iusto eveniet velit. Labore ut cum quod. Fuga earum sint qui aspernatur. Odio nisi maiores sint labore officiis amet.'
+                        pageCount: 7
                         links:
-                          self: 'http://api.trovster.com/books/9798927461059'
-                          permalink: 'http://www.trovster.com/books/9798927461059/et-et-repellat-atque'
+                          self: 'http://api.trovster.com/books/9786420625689'
+                          permalink: 'http://www.trovster.com/books/9786420625689/repellat-qui-quo-ex-cumque'
                     items:
                       type: object
                       properties:
                         id:
                           type: integer
-                          example: 246
+                          example: 158
                         isbn:
                           type: string
-                          example: '9795951631243'
+                          example: '9799144539880'
                         title:
                           type: string
-                          example: 'Quos cumque cum excepturi et asperiores esse ut.'
+                          example: 'Quia tenetur non modi provident.'
                         summary:
                           type: string
-                          example: 'Blanditiis qui earum impedit ea quis. Reiciendis tenetur ut est repellat assumenda blanditiis consequatur velit. Et rem perspiciatis ipsa rerum exercitationem alias quod. Et molestias nesciunt labore et.'
+                          example: 'Eos fugit itaque tempora quod. Voluptatum nobis laudantium accusantium placeat magni molestiae aspernatur est. Nulla et asperiores et eaque.'
                         pageCount:
                           type: integer
-                          example: 8
+                          example: 1
                         links:
                           type: object
                           properties:
                             self:
                               type: string
-                              example: 'http://api.trovster.com/books/9795951631243'
+                              example: 'http://api.trovster.com/books/9799144539880'
                             permalink:
                               type: string
-                              example: 'http://www.trovster.com/books/9795951631243/ea-quo-vitae-officia-delectus-quo-natus-asperiores'
+                              example: 'http://www.trovster.com/books/9799144539880/accusantium-quos-eius-repellat-reiciendis'
                   links:
                     type: object
                     properties:
@@ -993,42 +993,42 @@ paths:
                 type: object
                 example:
                   data:
-                    id: 248
-                    isbn: '9782581113980'
-                    title: 'Molestias eum distinctio animi tempora.'
-                    summary: 'Odit sit dolor id dolorem et. Inventore sit assumenda quis reprehenderit natus dolor. Doloribus quo repellendus id ea minima maxime aliquam.'
-                    pageCount: 8
+                    id: 160
+                    isbn: '9794738199808'
+                    title: 'Et tenetur vel fuga harum ratione facilis fuga.'
+                    summary: 'Ipsum et maiores nostrum. Rerum alias dignissimos rerum quo. Quae autem consequatur culpa nam quis aperiam. Amet ex rerum rerum est quia. Laborum aut reprehenderit officiis et quaerat deleniti voluptas.'
+                    pageCount: 3
                     links:
-                      self: 'http://api.trovster.com/books/9782581113980'
-                      permalink: 'http://www.trovster.com/books/9782581113980/molestiae-qui-consequatur-voluptatum-inventore-dolorem'
+                      self: 'http://api.trovster.com/books/9794738199808'
+                      permalink: 'http://www.trovster.com/books/9794738199808/et-est-omnis-non-eveniet-eum-consequatur-odit'
                 properties:
                   data:
                     type: object
                     properties:
                       id:
                         type: integer
-                        example: 248
+                        example: 160
                       isbn:
                         type: string
-                        example: '9782581113980'
+                        example: '9794738199808'
                       title:
                         type: string
-                        example: 'Molestias eum distinctio animi tempora.'
+                        example: 'Et tenetur vel fuga harum ratione facilis fuga.'
                       summary:
                         type: string
-                        example: 'Odit sit dolor id dolorem et. Inventore sit assumenda quis reprehenderit natus dolor. Doloribus quo repellendus id ea minima maxime aliquam.'
+                        example: 'Ipsum et maiores nostrum. Rerum alias dignissimos rerum quo. Quae autem consequatur culpa nam quis aperiam. Amet ex rerum rerum est quia. Laborum aut reprehenderit officiis et quaerat deleniti voluptas.'
                       pageCount:
                         type: integer
-                        example: 8
+                        example: 3
                       links:
                         type: object
                         properties:
                           self:
                             type: string
-                            example: 'http://api.trovster.com/books/9782581113980'
+                            example: 'http://api.trovster.com/books/9794738199808'
                           permalink:
                             type: string
-                            example: 'http://www.trovster.com/books/9782581113980/molestiae-qui-consequatur-voluptatum-inventore-dolorem'
+                            example: 'http://www.trovster.com/books/9794738199808/et-est-omnis-non-eveniet-eum-consequatur-odit'
       tags:
         - Books
     parameters:
@@ -1044,7 +1044,7 @@ paths:
     post:
       summary: 'Read a Book'
       operationId: readABook
-      description: "This endpoint allows you to <strong>mark a book as read</strong>.\nThis requires the book ID and the date read.\nA rating between 1 and 10 is <em>optional</em>.\nThe book must exist in the system before being marked as read."
+      description: "This endpoint allows you to <strong>mark a book as read</strong>.\nThis requires the book ISBN13 and the date read.\nA rating between 1 and 10 is <em>optional</em>."
       parameters: []
       responses:
         201:
@@ -1055,17 +1055,17 @@ paths:
                 type: object
                 example:
                   data:
-                    date: '2023-07-26T00:00:00.000000Z'
-                    rating: 9
+                    date: '2024-07-30T00:00:00.000000Z'
+                    rating: 6
                     book:
-                      id: 245
-                      isbn: '9784529454865'
-                      title: 'Quisquam voluptatum nam aut possimus.'
-                      summary: 'Doloremque veritatis nemo laudantium voluptatem repellat. Atque maiores rem est qui est autem. Sed sed nihil rem quas beatae omnis vel. Eius quos doloremque et in occaecati ut.'
-                      pageCount: 2
+                      id: 157
+                      isbn: '9786565789260'
+                      title: 'Omnis quos omnis et ducimus voluptatem.'
+                      summary: 'Aut maiores aspernatur molestiae odio et. Quia dolor ut architecto illo quia. Dolor aliquam vel aperiam laborum.'
+                      pageCount: 8
                       links:
-                        self: 'http://api.trovster.com/books/9784529454865'
-                        permalink: 'http://www.trovster.com/books/9784529454865/ratione-earum-quasi-quae-aspernatur'
+                        self: 'http://api.trovster.com/books/9786565789260'
+                        permalink: 'http://www.trovster.com/books/9786565789260/beatae-deleniti-et-ut-odit-rerum-alias-sit-qui'
                   status: 201
                   message: Created
                 properties:
@@ -1074,37 +1074,37 @@ paths:
                     properties:
                       date:
                         type: string
-                        example: '2023-07-26T00:00:00.000000Z'
+                        example: '2024-07-30T00:00:00.000000Z'
                       rating:
                         type: integer
-                        example: 9
+                        example: 6
                       book:
                         type: object
                         properties:
                           id:
                             type: integer
-                            example: 245
+                            example: 157
                           isbn:
                             type: string
-                            example: '9784529454865'
+                            example: '9786565789260'
                           title:
                             type: string
-                            example: 'Quisquam voluptatum nam aut possimus.'
+                            example: 'Omnis quos omnis et ducimus voluptatem.'
                           summary:
                             type: string
-                            example: 'Doloremque veritatis nemo laudantium voluptatem repellat. Atque maiores rem est qui est autem. Sed sed nihil rem quas beatae omnis vel. Eius quos doloremque et in occaecati ut.'
+                            example: 'Aut maiores aspernatur molestiae odio et. Quia dolor ut architecto illo quia. Dolor aliquam vel aperiam laborum.'
                           pageCount:
                             type: integer
-                            example: 2
+                            example: 8
                           links:
                             type: object
                             properties:
                               self:
                                 type: string
-                                example: 'http://api.trovster.com/books/9784529454865'
+                                example: 'http://api.trovster.com/books/9786565789260'
                               permalink:
                                 type: string
-                                example: 'http://www.trovster.com/books/9784529454865/ratione-earum-quasi-quae-aspernatur'
+                                example: 'http://www.trovster.com/books/9786565789260/beatae-deleniti-et-ut-odit-rerum-alias-sit-qui'
                   status:
                     type: integer
                     example: 201
@@ -1123,18 +1123,18 @@ paths:
                 date:
                   type: string
                   description: 'Must be a valid date. Must be a date before or equal to <code>now</code>.'
-                  example: '2019-06-01'
+                  example: '2013-07-23'
                 rating:
                   type: integer
                   description: 'Must be between 1 and 10 digits.'
-                  example: 1
-                book_id:
-                  type: integer
-                  description: ''
                   example: 7
+                isbn:
+                  type: string
+                  description: 'Must be 13 digits.'
+                  example: 9781451648539
               required:
                 - date
-                - book_id
+                - isbn
   /fitness:
     get:
       summary: 'List All Fitness Data'
@@ -1151,55 +1151,55 @@ paths:
                 example:
                   data:
                     -
-                      id: 337
-                      date: '1971-01-02T00:00:00+00:00'
-                      summary: 'I took 7 steps, walked 0.00 miles and climbed 5 flights on 02/01/1971'
+                      id: 322
+                      date: '1993-08-22T00:00:00+00:00'
+                      summary: 'I took 7 steps, walked 0.00 miles and climbed 4 flights on 22/08/1993'
                       steps: 7
-                      distance: 8
-                      flights: 5
+                      distance: 1
+                      flights: 4
                       move:
-                        total: 2
-                        goal: 4
-                        percent: 50
+                        total: 1
+                        goal: 7
+                        percent: 14
                         complete: false
                       exercise:
+                        total: 1
+                        goal: 2
+                        percent: 50
+                        complete: false
+                      stand:
+                        total: 8
+                        goal: 7
+                        percent: 114
+                        complete: true
+                      links:
+                        self: 'http://api.trovster.com/fitness/1993-08-22'
+                        permalink: 'http://www.trovster.com/activities/1993-08-22'
+                    -
+                      id: 323
+                      date: '2004-05-13T00:00:00+00:00'
+                      summary: 'I took 5 steps, walked 0.00 miles and climbed 9 flights on 13/05/2004'
+                      steps: 5
+                      distance: 8
+                      flights: 9
+                      move:
                         total: 9
-                        goal: 8
-                        percent: 113
+                        goal: 5
+                        percent: 180
+                        complete: true
+                      exercise:
+                        total: 9
+                        goal: 5
+                        percent: 180
                         complete: true
                       stand:
                         total: 1
-                        goal: 3
-                        percent: 33
-                        complete: false
-                      links:
-                        self: 'http://api.trovster.com/fitness/1971-01-02'
-                        permalink: 'http://www.trovster.com/activities/1971-01-02'
-                    -
-                      id: 338
-                      date: '1998-07-24T00:00:00+00:00'
-                      summary: 'I took 6 steps, walked 0.01 miles and climbed 6 flights on 24/07/1998'
-                      steps: 6
-                      distance: 9
-                      flights: 6
-                      move:
-                        total: 4
                         goal: 6
-                        percent: 67
+                        percent: 17
                         complete: false
-                      exercise:
-                        total: 4
-                        goal: 7
-                        percent: 57
-                        complete: false
-                      stand:
-                        total: 6
-                        goal: 5
-                        percent: 120
-                        complete: true
                       links:
-                        self: 'http://api.trovster.com/fitness/1998-07-24'
-                        permalink: 'http://www.trovster.com/activities/1998-07-24'
+                        self: 'http://api.trovster.com/fitness/2004-05-13'
+                        permalink: 'http://www.trovster.com/activities/2004-05-13'
                   links:
                     first: '/?page=1'
                     last: '/?page=1'
@@ -1231,107 +1231,77 @@ paths:
                     type: array
                     example:
                       -
-                        id: 337
-                        date: '1971-01-02T00:00:00+00:00'
-                        summary: 'I took 7 steps, walked 0.00 miles and climbed 5 flights on 02/01/1971'
+                        id: 322
+                        date: '1993-08-22T00:00:00+00:00'
+                        summary: 'I took 7 steps, walked 0.00 miles and climbed 4 flights on 22/08/1993'
                         steps: 7
-                        distance: 8
-                        flights: 5
+                        distance: 1
+                        flights: 4
                         move:
-                          total: 2
-                          goal: 4
-                          percent: 50
+                          total: 1
+                          goal: 7
+                          percent: 14
                           complete: false
                         exercise:
+                          total: 1
+                          goal: 2
+                          percent: 50
+                          complete: false
+                        stand:
+                          total: 8
+                          goal: 7
+                          percent: 114
+                          complete: true
+                        links:
+                          self: 'http://api.trovster.com/fitness/1993-08-22'
+                          permalink: 'http://www.trovster.com/activities/1993-08-22'
+                      -
+                        id: 323
+                        date: '2004-05-13T00:00:00+00:00'
+                        summary: 'I took 5 steps, walked 0.00 miles and climbed 9 flights on 13/05/2004'
+                        steps: 5
+                        distance: 8
+                        flights: 9
+                        move:
                           total: 9
-                          goal: 8
-                          percent: 113
+                          goal: 5
+                          percent: 180
+                          complete: true
+                        exercise:
+                          total: 9
+                          goal: 5
+                          percent: 180
                           complete: true
                         stand:
                           total: 1
-                          goal: 3
-                          percent: 33
-                          complete: false
-                        links:
-                          self: 'http://api.trovster.com/fitness/1971-01-02'
-                          permalink: 'http://www.trovster.com/activities/1971-01-02'
-                      -
-                        id: 338
-                        date: '1998-07-24T00:00:00+00:00'
-                        summary: 'I took 6 steps, walked 0.01 miles and climbed 6 flights on 24/07/1998'
-                        steps: 6
-                        distance: 9
-                        flights: 6
-                        move:
-                          total: 4
                           goal: 6
-                          percent: 67
+                          percent: 17
                           complete: false
-                        exercise:
-                          total: 4
-                          goal: 7
-                          percent: 57
-                          complete: false
-                        stand:
-                          total: 6
-                          goal: 5
-                          percent: 120
-                          complete: true
                         links:
-                          self: 'http://api.trovster.com/fitness/1998-07-24'
-                          permalink: 'http://www.trovster.com/activities/1998-07-24'
+                          self: 'http://api.trovster.com/fitness/2004-05-13'
+                          permalink: 'http://www.trovster.com/activities/2004-05-13'
                     items:
                       type: object
                       properties:
                         id:
                           type: integer
-                          example: 337
+                          example: 322
                         date:
                           type: string
-                          example: '1971-01-02T00:00:00+00:00'
+                          example: '1993-08-22T00:00:00+00:00'
                         summary:
                           type: string
-                          example: 'I took 7 steps, walked 0.00 miles and climbed 5 flights on 02/01/1971'
+                          example: 'I took 7 steps, walked 0.00 miles and climbed 4 flights on 22/08/1993'
                         steps:
                           type: integer
                           example: 7
                         distance:
                           type: integer
-                          example: 8
+                          example: 1
                         flights:
                           type: integer
-                          example: 5
+                          example: 4
                         move:
-                          type: object
-                          properties:
-                            total:
-                              type: integer
-                              example: 2
-                            goal:
-                              type: integer
-                              example: 4
-                            percent:
-                              type: integer
-                              example: 50
-                            complete:
-                              type: boolean
-                              example: false
-                        exercise:
-                          type: object
-                          properties:
-                            total:
-                              type: integer
-                              example: 9
-                            goal:
-                              type: integer
-                              example: 8
-                            percent:
-                              type: integer
-                              example: 113
-                            complete:
-                              type: boolean
-                              example: true
-                        stand:
                           type: object
                           properties:
                             total:
@@ -1339,22 +1309,52 @@ paths:
                               example: 1
                             goal:
                               type: integer
-                              example: 3
+                              example: 7
                             percent:
                               type: integer
-                              example: 33
+                              example: 14
                             complete:
                               type: boolean
                               example: false
+                        exercise:
+                          type: object
+                          properties:
+                            total:
+                              type: integer
+                              example: 1
+                            goal:
+                              type: integer
+                              example: 2
+                            percent:
+                              type: integer
+                              example: 50
+                            complete:
+                              type: boolean
+                              example: false
+                        stand:
+                          type: object
+                          properties:
+                            total:
+                              type: integer
+                              example: 8
+                            goal:
+                              type: integer
+                              example: 7
+                            percent:
+                              type: integer
+                              example: 114
+                            complete:
+                              type: boolean
+                              example: true
                         links:
                           type: object
                           properties:
                             self:
                               type: string
-                              example: 'http://api.trovster.com/fitness/1971-01-02'
+                              example: 'http://api.trovster.com/fitness/1993-08-22'
                             permalink:
                               type: string
-                              example: 'http://www.trovster.com/activities/1971-01-02'
+                              example: 'http://www.trovster.com/activities/1993-08-22'
                   links:
                     type: object
                     properties:
@@ -1441,7 +1441,7 @@ paths:
                 date:
                   type: string
                   description: 'Must be a valid date. Must be a date before or equal to <code>now</code>.'
-                  example: '1997-01-20'
+                  example: '2010-11-22'
                 active_energy:
                   type: number
                   description: ''
@@ -1494,79 +1494,79 @@ paths:
                 type: object
                 example:
                   data:
-                    id: 339
-                    date: '1993-05-27T00:00:00+00:00'
-                    summary: 'I took 8 steps, walked 0.01 miles and climbed 2 flights on 27/05/1993'
+                    id: 324
+                    date: '1987-09-02T00:00:00+00:00'
+                    summary: 'I took 8 steps, walked 0.00 miles and climbed 7 flights on 02/09/1987'
                     steps: 8
-                    distance: 9
-                    flights: 2
+                    distance: 4
+                    flights: 7
                     move:
-                      total: 8
-                      goal: 1
-                      percent: 800
-                      complete: true
+                      total: 7
+                      goal: 8
+                      percent: 88
+                      complete: false
                     exercise:
-                      total: 1
-                      goal: 5
-                      percent: 20
+                      total: 6
+                      goal: 7
+                      percent: 86
                       complete: false
                     stand:
-                      total: 8
-                      goal: 9
-                      percent: 89
+                      total: 4
+                      goal: 7
+                      percent: 57
                       complete: false
                     links:
-                      self: 'http://api.trovster.com/fitness/1993-05-27'
-                      permalink: 'http://www.trovster.com/activities/1993-05-27'
+                      self: 'http://api.trovster.com/fitness/1987-09-02'
+                      permalink: 'http://www.trovster.com/activities/1987-09-02'
                 properties:
                   data:
                     type: object
                     properties:
                       id:
                         type: integer
-                        example: 339
+                        example: 324
                       date:
                         type: string
-                        example: '1993-05-27T00:00:00+00:00'
+                        example: '1987-09-02T00:00:00+00:00'
                       summary:
                         type: string
-                        example: 'I took 8 steps, walked 0.01 miles and climbed 2 flights on 27/05/1993'
+                        example: 'I took 8 steps, walked 0.00 miles and climbed 7 flights on 02/09/1987'
                       steps:
                         type: integer
                         example: 8
                       distance:
                         type: integer
-                        example: 9
+                        example: 4
                       flights:
                         type: integer
-                        example: 2
+                        example: 7
                       move:
                         type: object
                         properties:
                           total:
                             type: integer
-                            example: 8
+                            example: 7
                           goal:
                             type: integer
-                            example: 1
+                            example: 8
                           percent:
                             type: integer
-                            example: 800
+                            example: 88
                           complete:
                             type: boolean
-                            example: true
+                            example: false
                       exercise:
                         type: object
                         properties:
                           total:
                             type: integer
-                            example: 1
+                            example: 6
                           goal:
                             type: integer
-                            example: 5
+                            example: 7
                           percent:
                             type: integer
-                            example: 20
+                            example: 86
                           complete:
                             type: boolean
                             example: false
@@ -1575,13 +1575,13 @@ paths:
                         properties:
                           total:
                             type: integer
-                            example: 8
+                            example: 4
                           goal:
                             type: integer
-                            example: 9
+                            example: 7
                           percent:
                             type: integer
-                            example: 89
+                            example: 57
                           complete:
                             type: boolean
                             example: false
@@ -1590,10 +1590,10 @@ paths:
                         properties:
                           self:
                             type: string
-                            example: 'http://api.trovster.com/fitness/1993-05-27'
+                            example: 'http://api.trovster.com/fitness/1987-09-02'
                           permalink:
                             type: string
-                            example: 'http://www.trovster.com/activities/1993-05-27'
+                            example: 'http://www.trovster.com/activities/1987-09-02'
       tags:
         - Health
     parameters:
@@ -1621,23 +1621,23 @@ paths:
                 example:
                   data:
                     -
-                      id: 2030
-                      title: 'Quia eum distinctio dolorem ipsam.'
-                      date: '2015-02-18T16:26:34+00:00'
-                      summary: 'Dolor sint similique expedita reprehenderit ratione omnis. Blanditiis est iure provident. Occaecati vel natus quas quia dolores esse. Quo quod impedit labore quod dicta hic repellat.'
-                      url: 'http://www.cooper.info/dolorum-eos-ea-debitis-nostrum-et-vel-maiores'
+                      id: 2060
+                      title: 'Quibusdam omnis aut unde.'
+                      date: '2024-08-02T07:25:33+00:00'
+                      summary: 'In quos earum dignissimos est excepturi. Rerum repellat aperiam necessitatibus praesentium minus officiis pariatur cumque. Saepe eligendi delectus vitae et. Vel rerum officiis est iure excepturi.'
+                      url: 'http://gray.biz/est-dolor-sed-sed-omnis-explicabo-officiis'
                       links:
-                        self: 'http://api.trovster.com/links/2030'
-                        permalink: 'http://www.cooper.info/dolorum-eos-ea-debitis-nostrum-et-vel-maiores'
+                        self: 'http://api.trovster.com/links/2060'
+                        permalink: 'http://gray.biz/est-dolor-sed-sed-omnis-explicabo-officiis'
                     -
-                      id: 2031
-                      title: 'Sunt ex reiciendis quis officiis voluptatibus iusto hic.'
-                      date: '2019-06-29T17:50:24+00:00'
-                      summary: 'Doloremque dolorem animi qui odio delectus quia. Hic dolores quibusdam voluptatum. Aliquid et magni voluptas.'
-                      url: 'http://bailey.com/delectus-et-amet-aut-dolorem-nihil'
+                      id: 2061
+                      title: 'Qui voluptas at molestiae sit at beatae.'
+                      date: '2024-07-31T12:52:34+00:00'
+                      summary: 'Molestiae sunt soluta iure consectetur id est. Voluptatem consequatur distinctio corporis cupiditate corrupti. Assumenda et id rem quae.'
+                      url: 'https://patel.com/voluptatem-vel-id-ut-aut.html'
                       links:
-                        self: 'http://api.trovster.com/links/2031'
-                        permalink: 'http://bailey.com/delectus-et-amet-aut-dolorem-nihil'
+                        self: 'http://api.trovster.com/links/2061'
+                        permalink: 'https://patel.com/voluptatem-vel-id-ut-aut.html'
                   links:
                     first: '/?page=1'
                     last: '/?page=1'
@@ -1669,50 +1669,50 @@ paths:
                     type: array
                     example:
                       -
-                        id: 2030
-                        title: 'Quia eum distinctio dolorem ipsam.'
-                        date: '2015-02-18T16:26:34+00:00'
-                        summary: 'Dolor sint similique expedita reprehenderit ratione omnis. Blanditiis est iure provident. Occaecati vel natus quas quia dolores esse. Quo quod impedit labore quod dicta hic repellat.'
-                        url: 'http://www.cooper.info/dolorum-eos-ea-debitis-nostrum-et-vel-maiores'
+                        id: 2060
+                        title: 'Quibusdam omnis aut unde.'
+                        date: '2024-08-02T07:25:33+00:00'
+                        summary: 'In quos earum dignissimos est excepturi. Rerum repellat aperiam necessitatibus praesentium minus officiis pariatur cumque. Saepe eligendi delectus vitae et. Vel rerum officiis est iure excepturi.'
+                        url: 'http://gray.biz/est-dolor-sed-sed-omnis-explicabo-officiis'
                         links:
-                          self: 'http://api.trovster.com/links/2030'
-                          permalink: 'http://www.cooper.info/dolorum-eos-ea-debitis-nostrum-et-vel-maiores'
+                          self: 'http://api.trovster.com/links/2060'
+                          permalink: 'http://gray.biz/est-dolor-sed-sed-omnis-explicabo-officiis'
                       -
-                        id: 2031
-                        title: 'Sunt ex reiciendis quis officiis voluptatibus iusto hic.'
-                        date: '2019-06-29T17:50:24+00:00'
-                        summary: 'Doloremque dolorem animi qui odio delectus quia. Hic dolores quibusdam voluptatum. Aliquid et magni voluptas.'
-                        url: 'http://bailey.com/delectus-et-amet-aut-dolorem-nihil'
+                        id: 2061
+                        title: 'Qui voluptas at molestiae sit at beatae.'
+                        date: '2024-07-31T12:52:34+00:00'
+                        summary: 'Molestiae sunt soluta iure consectetur id est. Voluptatem consequatur distinctio corporis cupiditate corrupti. Assumenda et id rem quae.'
+                        url: 'https://patel.com/voluptatem-vel-id-ut-aut.html'
                         links:
-                          self: 'http://api.trovster.com/links/2031'
-                          permalink: 'http://bailey.com/delectus-et-amet-aut-dolorem-nihil'
+                          self: 'http://api.trovster.com/links/2061'
+                          permalink: 'https://patel.com/voluptatem-vel-id-ut-aut.html'
                     items:
                       type: object
                       properties:
                         id:
                           type: integer
-                          example: 2030
+                          example: 2060
                         title:
                           type: string
-                          example: 'Quia eum distinctio dolorem ipsam.'
+                          example: 'Quibusdam omnis aut unde.'
                         date:
                           type: string
-                          example: '2015-02-18T16:26:34+00:00'
+                          example: '2024-08-02T07:25:33+00:00'
                         summary:
                           type: string
-                          example: 'Dolor sint similique expedita reprehenderit ratione omnis. Blanditiis est iure provident. Occaecati vel natus quas quia dolores esse. Quo quod impedit labore quod dicta hic repellat.'
+                          example: 'In quos earum dignissimos est excepturi. Rerum repellat aperiam necessitatibus praesentium minus officiis pariatur cumque. Saepe eligendi delectus vitae et. Vel rerum officiis est iure excepturi.'
                         url:
                           type: string
-                          example: 'http://www.cooper.info/dolorum-eos-ea-debitis-nostrum-et-vel-maiores'
+                          example: 'http://gray.biz/est-dolor-sed-sed-omnis-explicabo-officiis'
                         links:
                           type: object
                           properties:
                             self:
                               type: string
-                              example: 'http://api.trovster.com/links/2030'
+                              example: 'http://api.trovster.com/links/2060'
                             permalink:
                               type: string
-                              example: 'http://www.cooper.info/dolorum-eos-ea-debitis-nostrum-et-vel-maiores'
+                              example: 'http://gray.biz/est-dolor-sed-sed-omnis-explicabo-officiis'
                   links:
                     type: object
                     properties:
@@ -1795,15 +1795,15 @@ paths:
                 type: object
                 example:
                   data:
-                    id: 2032
-                    title: 'Voluptatibus omnis maxime et distinctio fugiat.'
-                    date: '2015-07-23T06:33:31+00:00'
-                    summary: 'Vero harum velit ipsa soluta velit voluptatem dolore ex. Labore necessitatibus esse deleniti voluptatibus culpa nisi sint. Doloribus quia ipsa saepe accusantium at harum in omnis.'
-                    url: 'http://price.com/dolor-eius-eos-suscipit-sint'
-                    html: "<p>Vero harum velit ipsa soluta velit voluptatem dolore ex. Labore necessitatibus esse deleniti voluptatibus culpa nisi sint. Doloribus quia ipsa saepe accusantium at harum in omnis.</p>\n"
+                    id: 2062
+                    title: 'Tenetur corporis voluptatem quis.'
+                    date: '2024-07-30T16:13:04+00:00'
+                    summary: 'Nulla numquam pariatur eius consequatur sed esse facere. Quam sapiente nihil nobis beatae in consequatur aut vel. Aperiam qui ipsa quasi tempore vel sequi qui.'
+                    url: 'http://patel.com/'
+                    html: "<p>Nulla numquam pariatur eius consequatur sed esse facere. Quam sapiente nihil nobis beatae in consequatur aut vel. Aperiam qui ipsa quasi tempore vel sequi qui.</p>\n"
                     links:
-                      self: 'http://api.trovster.com/links/2032'
-                      permalink: 'http://price.com/dolor-eius-eos-suscipit-sint'
+                      self: 'http://api.trovster.com/links/2062'
+                      permalink: 'http://patel.com/'
                   status: 201
                   message: Created
                 properties:
@@ -1812,31 +1812,31 @@ paths:
                     properties:
                       id:
                         type: integer
-                        example: 2032
+                        example: 2062
                       title:
                         type: string
-                        example: 'Voluptatibus omnis maxime et distinctio fugiat.'
+                        example: 'Tenetur corporis voluptatem quis.'
                       date:
                         type: string
-                        example: '2015-07-23T06:33:31+00:00'
+                        example: '2024-07-30T16:13:04+00:00'
                       summary:
                         type: string
-                        example: 'Vero harum velit ipsa soluta velit voluptatem dolore ex. Labore necessitatibus esse deleniti voluptatibus culpa nisi sint. Doloribus quia ipsa saepe accusantium at harum in omnis.'
+                        example: 'Nulla numquam pariatur eius consequatur sed esse facere. Quam sapiente nihil nobis beatae in consequatur aut vel. Aperiam qui ipsa quasi tempore vel sequi qui.'
                       url:
                         type: string
-                        example: 'http://price.com/dolor-eius-eos-suscipit-sint'
+                        example: 'http://patel.com/'
                       html:
                         type: string
-                        example: "<p>Vero harum velit ipsa soluta velit voluptatem dolore ex. Labore necessitatibus esse deleniti voluptatibus culpa nisi sint. Doloribus quia ipsa saepe accusantium at harum in omnis.</p>\n"
+                        example: "<p>Nulla numquam pariatur eius consequatur sed esse facere. Quam sapiente nihil nobis beatae in consequatur aut vel. Aperiam qui ipsa quasi tempore vel sequi qui.</p>\n"
                       links:
                         type: object
                         properties:
                           self:
                             type: string
-                            example: 'http://api.trovster.com/links/2032'
+                            example: 'http://api.trovster.com/links/2062'
                           permalink:
                             type: string
-                            example: 'http://price.com/dolor-eius-eos-suscipit-sint'
+                            example: 'http://patel.com/'
                   status:
                     type: integer
                     example: 201
@@ -1855,7 +1855,7 @@ paths:
                 date:
                   type: string
                   description: 'Must be a valid date.'
-                  example: '2024-04-25T13:39:51'
+                  example: '2024-08-04T08:21:24'
                 url:
                   type: string
                   description: 'Must be a valid URL.'
@@ -1871,7 +1871,7 @@ paths:
                 via:
                   type: string
                   description: 'Must be a valid URL.'
-                  example: 'http://runte.com/rerum-esse-quia-necessitatibus-aut-et-itaque'
+                  example: 'http://abbott.org/voluptatem-odit-molestias-odit-est-sit-dolor'
               required:
                 - date
                 - url
@@ -1892,46 +1892,46 @@ paths:
                 type: object
                 example:
                   data:
-                    id: 2033
-                    title: 'Amet minus cum excepturi ipsum autem.'
-                    date: '2023-08-02T04:41:33+00:00'
-                    summary: 'Veniam in quasi error molestias. Pariatur eligendi est ut ex est aut illum. Natus laboriosam eligendi quae asperiores eius eligendi rerum.'
-                    url: 'http://powell.com/'
-                    html: "<p>Veniam in quasi error molestias. Pariatur eligendi est ut ex est aut illum. Natus laboriosam eligendi quae asperiores eius eligendi rerum.</p>\n"
+                    id: 2063
+                    title: 'Deleniti sit eos voluptates placeat culpa quis accusamus.'
+                    date: '2024-07-29T12:40:15+00:00'
+                    summary: 'Quisquam laborum vitae et expedita. Nostrum harum aliquid laborum. Ut porro dicta mollitia sit officiis quibusdam quis. Saepe facere id eum et quo voluptas.'
+                    url: 'http://www.lewis.co.uk/rem-voluptatibus-consequatur-et-expedita-distinctio-voluptatibus-sunt-quia.html'
+                    html: "<p>Quisquam laborum vitae et expedita. Nostrum harum aliquid laborum. Ut porro dicta mollitia sit officiis quibusdam quis. Saepe facere id eum et quo voluptas.</p>\n"
                     links:
-                      self: 'http://api.trovster.com/links/2033'
-                      permalink: 'http://powell.com/'
+                      self: 'http://api.trovster.com/links/2063'
+                      permalink: 'http://www.lewis.co.uk/rem-voluptatibus-consequatur-et-expedita-distinctio-voluptatibus-sunt-quia.html'
                 properties:
                   data:
                     type: object
                     properties:
                       id:
                         type: integer
-                        example: 2033
+                        example: 2063
                       title:
                         type: string
-                        example: 'Amet minus cum excepturi ipsum autem.'
+                        example: 'Deleniti sit eos voluptates placeat culpa quis accusamus.'
                       date:
                         type: string
-                        example: '2023-08-02T04:41:33+00:00'
+                        example: '2024-07-29T12:40:15+00:00'
                       summary:
                         type: string
-                        example: 'Veniam in quasi error molestias. Pariatur eligendi est ut ex est aut illum. Natus laboriosam eligendi quae asperiores eius eligendi rerum.'
+                        example: 'Quisquam laborum vitae et expedita. Nostrum harum aliquid laborum. Ut porro dicta mollitia sit officiis quibusdam quis. Saepe facere id eum et quo voluptas.'
                       url:
                         type: string
-                        example: 'http://powell.com/'
+                        example: 'http://www.lewis.co.uk/rem-voluptatibus-consequatur-et-expedita-distinctio-voluptatibus-sunt-quia.html'
                       html:
                         type: string
-                        example: "<p>Veniam in quasi error molestias. Pariatur eligendi est ut ex est aut illum. Natus laboriosam eligendi quae asperiores eius eligendi rerum.</p>\n"
+                        example: "<p>Quisquam laborum vitae et expedita. Nostrum harum aliquid laborum. Ut porro dicta mollitia sit officiis quibusdam quis. Saepe facere id eum et quo voluptas.</p>\n"
                       links:
                         type: object
                         properties:
                           self:
                             type: string
-                            example: 'http://api.trovster.com/links/2033'
+                            example: 'http://api.trovster.com/links/2063'
                           permalink:
                             type: string
-                            example: 'http://powell.com/'
+                            example: 'http://www.lewis.co.uk/rem-voluptatibus-consequatur-et-expedita-distinctio-voluptatibus-sunt-quia.html'
       tags:
         - 'Links & Articles'
     parameters:
@@ -1959,23 +1959,23 @@ paths:
                 example:
                   data:
                     -
-                      id: 2034
-                      title: 'At tempora aut iusto vitae.'
-                      date: '2023-05-21T15:22:49+00:00'
-                      summary: 'Deserunt dolor eaque quis nemo natus quae. Illo fuga porro eum illo ad soluta et. Et ea quae quia nam. Esse porro sit quia deleniti natus magni hic.'
-                      url: 'https://martin.com/voluptatem-quasi-laboriosam-earum-vel-ea.html'
+                      id: 2064
+                      title: 'Inventore eligendi ad et et voluptatum repellendus.'
+                      date: '2024-07-31T21:11:57+00:00'
+                      summary: 'Consectetur minus voluptas blanditiis id repellendus exercitationem sequi repellendus. Rerum eum vitae sit adipisci. Id et voluptate ut quaerat. Ipsam officia rerum similique dolor quaerat.'
+                      url: 'http://www.white.com/'
                       links:
-                        self: 'http://api.trovster.com/articles/2034'
-                        permalink: 'https://martin.com/voluptatem-quasi-laboriosam-earum-vel-ea.html'
+                        self: 'http://api.trovster.com/articles/2064'
+                        permalink: 'http://www.white.com/'
                     -
-                      id: 2035
-                      title: 'Dolor exercitationem et vel nesciunt.'
-                      date: '2015-09-01T10:40:11+00:00'
-                      summary: 'Quod cum eveniet quo sit blanditiis. Dolores quia et vero veritatis debitis in vero. Facere eligendi quasi maxime asperiores. Aliquam ipsa incidunt consequatur quisquam sunt neque enim.'
-                      url: 'https://www.bell.com/maiores-necessitatibus-consectetur-corporis-a-enim-eius-et'
+                      id: 2065
+                      title: 'Et labore quis ducimus ad facere possimus aut recusandae.'
+                      date: '2024-08-01T19:45:44+00:00'
+                      summary: 'Quidem maiores doloremque nihil facere. Ut et ab quaerat sequi architecto. Eum numquam voluptatem blanditiis fugiat et. Dolores nihil voluptatibus eius consectetur voluptate sit.'
+                      url: 'http://www.saunders.biz/laboriosam-adipisci-omnis-quaerat-expedita-deserunt'
                       links:
-                        self: 'http://api.trovster.com/articles/2035'
-                        permalink: 'https://www.bell.com/maiores-necessitatibus-consectetur-corporis-a-enim-eius-et'
+                        self: 'http://api.trovster.com/articles/2065'
+                        permalink: 'http://www.saunders.biz/laboriosam-adipisci-omnis-quaerat-expedita-deserunt'
                   links:
                     first: '/?page=1'
                     last: '/?page=1'
@@ -2007,50 +2007,50 @@ paths:
                     type: array
                     example:
                       -
-                        id: 2034
-                        title: 'At tempora aut iusto vitae.'
-                        date: '2023-05-21T15:22:49+00:00'
-                        summary: 'Deserunt dolor eaque quis nemo natus quae. Illo fuga porro eum illo ad soluta et. Et ea quae quia nam. Esse porro sit quia deleniti natus magni hic.'
-                        url: 'https://martin.com/voluptatem-quasi-laboriosam-earum-vel-ea.html'
+                        id: 2064
+                        title: 'Inventore eligendi ad et et voluptatum repellendus.'
+                        date: '2024-07-31T21:11:57+00:00'
+                        summary: 'Consectetur minus voluptas blanditiis id repellendus exercitationem sequi repellendus. Rerum eum vitae sit adipisci. Id et voluptate ut quaerat. Ipsam officia rerum similique dolor quaerat.'
+                        url: 'http://www.white.com/'
                         links:
-                          self: 'http://api.trovster.com/articles/2034'
-                          permalink: 'https://martin.com/voluptatem-quasi-laboriosam-earum-vel-ea.html'
+                          self: 'http://api.trovster.com/articles/2064'
+                          permalink: 'http://www.white.com/'
                       -
-                        id: 2035
-                        title: 'Dolor exercitationem et vel nesciunt.'
-                        date: '2015-09-01T10:40:11+00:00'
-                        summary: 'Quod cum eveniet quo sit blanditiis. Dolores quia et vero veritatis debitis in vero. Facere eligendi quasi maxime asperiores. Aliquam ipsa incidunt consequatur quisquam sunt neque enim.'
-                        url: 'https://www.bell.com/maiores-necessitatibus-consectetur-corporis-a-enim-eius-et'
+                        id: 2065
+                        title: 'Et labore quis ducimus ad facere possimus aut recusandae.'
+                        date: '2024-08-01T19:45:44+00:00'
+                        summary: 'Quidem maiores doloremque nihil facere. Ut et ab quaerat sequi architecto. Eum numquam voluptatem blanditiis fugiat et. Dolores nihil voluptatibus eius consectetur voluptate sit.'
+                        url: 'http://www.saunders.biz/laboriosam-adipisci-omnis-quaerat-expedita-deserunt'
                         links:
-                          self: 'http://api.trovster.com/articles/2035'
-                          permalink: 'https://www.bell.com/maiores-necessitatibus-consectetur-corporis-a-enim-eius-et'
+                          self: 'http://api.trovster.com/articles/2065'
+                          permalink: 'http://www.saunders.biz/laboriosam-adipisci-omnis-quaerat-expedita-deserunt'
                     items:
                       type: object
                       properties:
                         id:
                           type: integer
-                          example: 2034
+                          example: 2064
                         title:
                           type: string
-                          example: 'At tempora aut iusto vitae.'
+                          example: 'Inventore eligendi ad et et voluptatum repellendus.'
                         date:
                           type: string
-                          example: '2023-05-21T15:22:49+00:00'
+                          example: '2024-07-31T21:11:57+00:00'
                         summary:
                           type: string
-                          example: 'Deserunt dolor eaque quis nemo natus quae. Illo fuga porro eum illo ad soluta et. Et ea quae quia nam. Esse porro sit quia deleniti natus magni hic.'
+                          example: 'Consectetur minus voluptas blanditiis id repellendus exercitationem sequi repellendus. Rerum eum vitae sit adipisci. Id et voluptate ut quaerat. Ipsam officia rerum similique dolor quaerat.'
                         url:
                           type: string
-                          example: 'https://martin.com/voluptatem-quasi-laboriosam-earum-vel-ea.html'
+                          example: 'http://www.white.com/'
                         links:
                           type: object
                           properties:
                             self:
                               type: string
-                              example: 'http://api.trovster.com/articles/2034'
+                              example: 'http://api.trovster.com/articles/2064'
                             permalink:
                               type: string
-                              example: 'https://martin.com/voluptatem-quasi-laboriosam-earum-vel-ea.html'
+                              example: 'http://www.white.com/'
                   links:
                     type: object
                     properties:
@@ -2133,15 +2133,15 @@ paths:
                 type: object
                 example:
                   data:
-                    id: 2036
-                    title: 'Quaerat aspernatur quia iure alias et sed tempora.'
-                    date: '2014-08-07T04:23:16+00:00'
-                    summary: 'Hic nihil eveniet totam in eveniet. Est quae recusandae vero ullam repellat iure quasi. Adipisci voluptate ipsum voluptas. Similique atque dolorem est maiores aut illum.'
-                    url: 'http://www.parker.net/'
-                    html: "<p>Hic nihil eveniet totam in eveniet. Est quae recusandae vero ullam repellat iure quasi. Adipisci voluptate ipsum voluptas. Similique atque dolorem est maiores aut illum.</p>\n"
+                    id: 2066
+                    title: 'Aut fugiat et id illo qui sint tempore.'
+                    date: '2024-07-31T07:06:36+00:00'
+                    summary: 'Et et commodi nulla maiores. Ullam voluptatem fugit quam consequatur labore fugiat facilis. Facilis id tempore error.'
+                    url: 'http://www.taylor.com/molestiae-sit-ducimus-quia-soluta-architecto-reiciendis-aperiam-incidunt'
+                    html: "<p>Et et commodi nulla maiores. Ullam voluptatem fugit quam consequatur labore fugiat facilis. Facilis id tempore error.</p>\n"
                     links:
-                      self: 'http://api.trovster.com/articles/2036'
-                      permalink: 'http://www.parker.net/'
+                      self: 'http://api.trovster.com/articles/2066'
+                      permalink: 'http://www.taylor.com/molestiae-sit-ducimus-quia-soluta-architecto-reiciendis-aperiam-incidunt'
                   status: 201
                   message: Created
                 properties:
@@ -2150,31 +2150,31 @@ paths:
                     properties:
                       id:
                         type: integer
-                        example: 2036
+                        example: 2066
                       title:
                         type: string
-                        example: 'Quaerat aspernatur quia iure alias et sed tempora.'
+                        example: 'Aut fugiat et id illo qui sint tempore.'
                       date:
                         type: string
-                        example: '2014-08-07T04:23:16+00:00'
+                        example: '2024-07-31T07:06:36+00:00'
                       summary:
                         type: string
-                        example: 'Hic nihil eveniet totam in eveniet. Est quae recusandae vero ullam repellat iure quasi. Adipisci voluptate ipsum voluptas. Similique atque dolorem est maiores aut illum.'
+                        example: 'Et et commodi nulla maiores. Ullam voluptatem fugit quam consequatur labore fugiat facilis. Facilis id tempore error.'
                       url:
                         type: string
-                        example: 'http://www.parker.net/'
+                        example: 'http://www.taylor.com/molestiae-sit-ducimus-quia-soluta-architecto-reiciendis-aperiam-incidunt'
                       html:
                         type: string
-                        example: "<p>Hic nihil eveniet totam in eveniet. Est quae recusandae vero ullam repellat iure quasi. Adipisci voluptate ipsum voluptas. Similique atque dolorem est maiores aut illum.</p>\n"
+                        example: "<p>Et et commodi nulla maiores. Ullam voluptatem fugit quam consequatur labore fugiat facilis. Facilis id tempore error.</p>\n"
                       links:
                         type: object
                         properties:
                           self:
                             type: string
-                            example: 'http://api.trovster.com/articles/2036'
+                            example: 'http://api.trovster.com/articles/2066'
                           permalink:
                             type: string
-                            example: 'http://www.parker.net/'
+                            example: 'http://www.taylor.com/molestiae-sit-ducimus-quia-soluta-architecto-reiciendis-aperiam-incidunt'
                   status:
                     type: integer
                     example: 201
@@ -2193,7 +2193,7 @@ paths:
                 date:
                   type: string
                   description: 'Must be a valid date.'
-                  example: '2024-04-25T13:39:52'
+                  example: '2024-08-04T08:21:24'
                 url:
                   type: string
                   description: 'Must be a valid URL.'
@@ -2209,7 +2209,7 @@ paths:
                 via:
                   type: string
                   description: 'Must be a valid URL.'
-                  example: 'http://smitham.net/est-eius-officiis-consequatur-quam-in-et'
+                  example: 'http://www.dietrich.biz/'
               required:
                 - date
                 - url
@@ -2230,46 +2230,46 @@ paths:
                 type: object
                 example:
                   data:
-                    id: 2037
-                    title: 'Qui amet tempore quam et eos qui.'
-                    date: '2024-01-25T20:35:55+00:00'
-                    summary: 'Est facilis omnis consequuntur alias vel sed. Eum sed itaque asperiores reprehenderit sunt.'
-                    url: 'http://mason.com/libero-quasi-facere-hic-vitae-consequatur-sint-quo-doloremque.html'
-                    html: "<p>Est facilis omnis consequuntur alias vel sed. Eum sed itaque asperiores reprehenderit sunt.</p>\n"
+                    id: 2067
+                    title: 'Architecto expedita et labore blanditiis ullam dolores saepe voluptatem.'
+                    date: '2024-07-29T18:00:59+00:00'
+                    summary: 'In ad expedita sed sit consequuntur qui. Possimus fugit quae in cupiditate. Adipisci quia dicta alias ad qui occaecati dolores voluptatibus. Illo enim quis rem impedit est.'
+                    url: 'https://murray.com/ut-veniam-temporibus-qui-fugiat.html'
+                    html: "<p>In ad expedita sed sit consequuntur qui. Possimus fugit quae in cupiditate. Adipisci quia dicta alias ad qui occaecati dolores voluptatibus. Illo enim quis rem impedit est.</p>\n"
                     links:
-                      self: 'http://api.trovster.com/articles/2037'
-                      permalink: 'http://mason.com/libero-quasi-facere-hic-vitae-consequatur-sint-quo-doloremque.html'
+                      self: 'http://api.trovster.com/articles/2067'
+                      permalink: 'https://murray.com/ut-veniam-temporibus-qui-fugiat.html'
                 properties:
                   data:
                     type: object
                     properties:
                       id:
                         type: integer
-                        example: 2037
+                        example: 2067
                       title:
                         type: string
-                        example: 'Qui amet tempore quam et eos qui.'
+                        example: 'Architecto expedita et labore blanditiis ullam dolores saepe voluptatem.'
                       date:
                         type: string
-                        example: '2024-01-25T20:35:55+00:00'
+                        example: '2024-07-29T18:00:59+00:00'
                       summary:
                         type: string
-                        example: 'Est facilis omnis consequuntur alias vel sed. Eum sed itaque asperiores reprehenderit sunt.'
+                        example: 'In ad expedita sed sit consequuntur qui. Possimus fugit quae in cupiditate. Adipisci quia dicta alias ad qui occaecati dolores voluptatibus. Illo enim quis rem impedit est.'
                       url:
                         type: string
-                        example: 'http://mason.com/libero-quasi-facere-hic-vitae-consequatur-sint-quo-doloremque.html'
+                        example: 'https://murray.com/ut-veniam-temporibus-qui-fugiat.html'
                       html:
                         type: string
-                        example: "<p>Est facilis omnis consequuntur alias vel sed. Eum sed itaque asperiores reprehenderit sunt.</p>\n"
+                        example: "<p>In ad expedita sed sit consequuntur qui. Possimus fugit quae in cupiditate. Adipisci quia dicta alias ad qui occaecati dolores voluptatibus. Illo enim quis rem impedit est.</p>\n"
                       links:
                         type: object
                         properties:
                           self:
                             type: string
-                            example: 'http://api.trovster.com/articles/2037'
+                            example: 'http://api.trovster.com/articles/2067'
                           permalink:
                             type: string
-                            example: 'http://mason.com/libero-quasi-facere-hic-vitae-consequatur-sint-quo-doloremque.html'
+                            example: 'https://murray.com/ut-veniam-temporibus-qui-fugiat.html'
       tags:
         - 'Links & Articles'
     parameters:
@@ -2297,39 +2297,39 @@ paths:
                 example:
                   data:
                     -
-                      id: 3946
-                      title: 'aliquid sint repellat'
-                      summary: 'Ea illo voluptatum beatae est magnam. Error quos ipsam excepturi voluptates sunt. Asperiores sint eveniet deleniti at quae. Quia libero libero libero debitis.'
-                      tagline: 'Doloremque enim vitae a commodi a rerum in.'
-                      year: 2011
-                      runtime: 59
-                      rating: 0
-                      count: 0
-                      poster: null
-                      still: null
-                      links:
-                        self: 'http://api.trovster.com/movies/3946'
-                        permalink: 'http://www.trovster.com/movies/id:3946/aliquid-sint-repellat'
-                        imdb: 'https://www.imdb.com/title/tt4601750'
-                        tmdb: 'https://www.themoviedb.org/movie/1281'
-                        letterboxd: 'https://boxd.it/2298'
-                    -
-                      id: 3947
-                      title: 'ut minus odit'
-                      summary: 'Est repellendus quas ut inventore saepe. Id quis voluptatem qui aliquam quas quidem iure. Nam est qui sit fugit quod voluptatem. Minus est odit facilis accusantium quasi impedit repellendus et.'
-                      tagline: 'Assumenda eos consequatur aut et ipsam tempora officiis.'
+                      id: 3864
+                      title: 'rem aut sed'
+                      summary: 'Velit aliquam quia earum dolorum aperiam delectus molestias. Dignissimos quasi in sit nemo quia totam. Iste eos odit esse eaque numquam eveniet dolor. Quia odio at minima in architecto. Distinctio fugit nisi voluptates.'
+                      tagline: 'Architecto vitae aut dolores praesentium qui repellendus voluptatem repellat.'
                       year: 1975
-                      runtime: 79
+                      runtime: 131
                       rating: 0
                       count: 0
                       poster: null
                       still: null
                       links:
-                        self: 'http://api.trovster.com/movies/3947'
-                        permalink: 'http://www.trovster.com/movies/id:3947/ut-minus-odit'
-                        imdb: 'https://www.imdb.com/title/tt9133817'
-                        tmdb: 'https://www.themoviedb.org/movie/3409'
-                        letterboxd: 'https://boxd.it/7382'
+                        self: 'http://api.trovster.com/movies/3864'
+                        permalink: 'http://www.trovster.com/movies/id:3864/rem-aut-sed'
+                        imdb: 'https://www.imdb.com/title/tt5972823'
+                        tmdb: 'https://www.themoviedb.org/movie/4076'
+                        letterboxd: 'https://boxd.it/5050'
+                    -
+                      id: 3865
+                      title: 'eos in tenetur'
+                      summary: 'Dignissimos non voluptates et consequatur et maxime. Consequatur laudantium magnam nulla. Quia voluptatem et est commodi et quia. Dicta odit et magnam voluptatem.'
+                      tagline: 'Quia placeat et architecto dicta minima quisquam et perferendis.'
+                      year: 1970
+                      runtime: 169
+                      rating: 0
+                      count: 0
+                      poster: null
+                      still: null
+                      links:
+                        self: 'http://api.trovster.com/movies/3865'
+                        permalink: 'http://www.trovster.com/movies/id:3865/eos-in-tenetur'
+                        imdb: 'https://www.imdb.com/title/tt1974505'
+                        tmdb: 'https://www.themoviedb.org/movie/4318'
+                        letterboxd: 'https://boxd.it/9887'
                   links:
                     first: '/?page=1'
                     last: '/?page=1'
@@ -2361,60 +2361,60 @@ paths:
                     type: array
                     example:
                       -
-                        id: 3946
-                        title: 'aliquid sint repellat'
-                        summary: 'Ea illo voluptatum beatae est magnam. Error quos ipsam excepturi voluptates sunt. Asperiores sint eveniet deleniti at quae. Quia libero libero libero debitis.'
-                        tagline: 'Doloremque enim vitae a commodi a rerum in.'
-                        year: 2011
-                        runtime: 59
-                        rating: 0
-                        count: 0
-                        poster: null
-                        still: null
-                        links:
-                          self: 'http://api.trovster.com/movies/3946'
-                          permalink: 'http://www.trovster.com/movies/id:3946/aliquid-sint-repellat'
-                          imdb: 'https://www.imdb.com/title/tt4601750'
-                          tmdb: 'https://www.themoviedb.org/movie/1281'
-                          letterboxd: 'https://boxd.it/2298'
-                      -
-                        id: 3947
-                        title: 'ut minus odit'
-                        summary: 'Est repellendus quas ut inventore saepe. Id quis voluptatem qui aliquam quas quidem iure. Nam est qui sit fugit quod voluptatem. Minus est odit facilis accusantium quasi impedit repellendus et.'
-                        tagline: 'Assumenda eos consequatur aut et ipsam tempora officiis.'
+                        id: 3864
+                        title: 'rem aut sed'
+                        summary: 'Velit aliquam quia earum dolorum aperiam delectus molestias. Dignissimos quasi in sit nemo quia totam. Iste eos odit esse eaque numquam eveniet dolor. Quia odio at minima in architecto. Distinctio fugit nisi voluptates.'
+                        tagline: 'Architecto vitae aut dolores praesentium qui repellendus voluptatem repellat.'
                         year: 1975
-                        runtime: 79
+                        runtime: 131
                         rating: 0
                         count: 0
                         poster: null
                         still: null
                         links:
-                          self: 'http://api.trovster.com/movies/3947'
-                          permalink: 'http://www.trovster.com/movies/id:3947/ut-minus-odit'
-                          imdb: 'https://www.imdb.com/title/tt9133817'
-                          tmdb: 'https://www.themoviedb.org/movie/3409'
-                          letterboxd: 'https://boxd.it/7382'
+                          self: 'http://api.trovster.com/movies/3864'
+                          permalink: 'http://www.trovster.com/movies/id:3864/rem-aut-sed'
+                          imdb: 'https://www.imdb.com/title/tt5972823'
+                          tmdb: 'https://www.themoviedb.org/movie/4076'
+                          letterboxd: 'https://boxd.it/5050'
+                      -
+                        id: 3865
+                        title: 'eos in tenetur'
+                        summary: 'Dignissimos non voluptates et consequatur et maxime. Consequatur laudantium magnam nulla. Quia voluptatem et est commodi et quia. Dicta odit et magnam voluptatem.'
+                        tagline: 'Quia placeat et architecto dicta minima quisquam et perferendis.'
+                        year: 1970
+                        runtime: 169
+                        rating: 0
+                        count: 0
+                        poster: null
+                        still: null
+                        links:
+                          self: 'http://api.trovster.com/movies/3865'
+                          permalink: 'http://www.trovster.com/movies/id:3865/eos-in-tenetur'
+                          imdb: 'https://www.imdb.com/title/tt1974505'
+                          tmdb: 'https://www.themoviedb.org/movie/4318'
+                          letterboxd: 'https://boxd.it/9887'
                     items:
                       type: object
                       properties:
                         id:
                           type: integer
-                          example: 3946
+                          example: 3864
                         title:
                           type: string
-                          example: 'aliquid sint repellat'
+                          example: 'rem aut sed'
                         summary:
                           type: string
-                          example: 'Ea illo voluptatum beatae est magnam. Error quos ipsam excepturi voluptates sunt. Asperiores sint eveniet deleniti at quae. Quia libero libero libero debitis.'
+                          example: 'Velit aliquam quia earum dolorum aperiam delectus molestias. Dignissimos quasi in sit nemo quia totam. Iste eos odit esse eaque numquam eveniet dolor. Quia odio at minima in architecto. Distinctio fugit nisi voluptates.'
                         tagline:
                           type: string
-                          example: 'Doloremque enim vitae a commodi a rerum in.'
+                          example: 'Architecto vitae aut dolores praesentium qui repellendus voluptatem repellat.'
                         year:
                           type: integer
-                          example: 2011
+                          example: 1975
                         runtime:
                           type: integer
-                          example: 59
+                          example: 131
                         rating:
                           type: integer
                           example: 0
@@ -2432,19 +2432,19 @@ paths:
                           properties:
                             self:
                               type: string
-                              example: 'http://api.trovster.com/movies/3946'
+                              example: 'http://api.trovster.com/movies/3864'
                             permalink:
                               type: string
-                              example: 'http://www.trovster.com/movies/id:3946/aliquid-sint-repellat'
+                              example: 'http://www.trovster.com/movies/id:3864/rem-aut-sed'
                             imdb:
                               type: string
-                              example: 'https://www.imdb.com/title/tt4601750'
+                              example: 'https://www.imdb.com/title/tt5972823'
                             tmdb:
                               type: string
-                              example: 'https://www.themoviedb.org/movie/1281'
+                              example: 'https://www.themoviedb.org/movie/4076'
                             letterboxd:
                               type: string
-                              example: 'https://boxd.it/2298'
+                              example: 'https://boxd.it/5050'
                   links:
                     type: object
                     properties:
@@ -2528,60 +2528,60 @@ paths:
                 type: object
                 example:
                   data:
-                    id: 3948
-                    title: 'molestiae deserunt facilis'
-                    summary: 'Ea sapiente eos rem a. Dignissimos quae quaerat qui doloribus et facilis iure. Ad quasi doloribus possimus excepturi doloribus eos. Et voluptates ab ducimus nisi voluptate qui. Dolores repellendus alias harum quis et eveniet non. Quia et fuga optio similique impedit.'
-                    tagline: 'Dolore sit omnis velit et.'
-                    year: 1985
-                    runtime: 162
+                    id: 3866
+                    title: 'et dolore voluptatem'
+                    summary: 'Repudiandae voluptatum eligendi et voluptates. Corporis molestiae qui qui hic est pariatur iure. Enim et incidunt minima consequuntur. Aut eos debitis ullam officiis doloremque error. Rerum odit architecto sunt quo iusto cum. Nulla unde in culpa reiciendis ut at consequatur.'
+                    tagline: 'Quidem non blanditiis dicta doloremque.'
+                    year: 2021
+                    runtime: 154
                     rating: 0
                     count: 0
                     poster: null
                     still: null
                     directors:
                       -
-                        id: 5963
-                        name: 'Louis Young'
+                        id: 6016
+                        name: 'Georgia Clark'
                     writers:
                       -
-                        id: 5964
-                        name: 'Julie Ellis'
+                        id: 6017
+                        name: 'Eleanor Harrison'
                     genres:
                       -
-                        id: 133
-                        name: sapiente
+                        id: 99
+                        name: nemo
                     languages:
                       -
-                        id: 180
-                        name: ut
+                        id: 146
+                        name: sit
                     links:
-                      self: 'http://api.trovster.com/movies/3948'
-                      permalink: 'http://www.trovster.com/movies/id:3948/molestiae-deserunt-facilis'
-                      imdb: 'https://www.imdb.com/title/tt6962136'
-                      tmdb: 'https://www.themoviedb.org/movie/3876'
-                      letterboxd: 'https://boxd.it/2650'
+                      self: 'http://api.trovster.com/movies/3866'
+                      permalink: 'http://www.trovster.com/movies/id:3866/et-dolore-voluptatem'
+                      imdb: 'https://www.imdb.com/title/tt2609759'
+                      tmdb: 'https://www.themoviedb.org/movie/9454'
+                      letterboxd: 'https://boxd.it/2471'
                 properties:
                   data:
                     type: object
                     properties:
                       id:
                         type: integer
-                        example: 3948
+                        example: 3866
                       title:
                         type: string
-                        example: 'molestiae deserunt facilis'
+                        example: 'et dolore voluptatem'
                       summary:
                         type: string
-                        example: 'Ea sapiente eos rem a. Dignissimos quae quaerat qui doloribus et facilis iure. Ad quasi doloribus possimus excepturi doloribus eos. Et voluptates ab ducimus nisi voluptate qui. Dolores repellendus alias harum quis et eveniet non. Quia et fuga optio similique impedit.'
+                        example: 'Repudiandae voluptatum eligendi et voluptates. Corporis molestiae qui qui hic est pariatur iure. Enim et incidunt minima consequuntur. Aut eos debitis ullam officiis doloremque error. Rerum odit architecto sunt quo iusto cum. Nulla unde in culpa reiciendis ut at consequatur.'
                       tagline:
                         type: string
-                        example: 'Dolore sit omnis velit et.'
+                        example: 'Quidem non blanditiis dicta doloremque.'
                       year:
                         type: integer
-                        example: 1985
+                        example: 2021
                       runtime:
                         type: integer
-                        example: 162
+                        example: 154
                       rating:
                         type: integer
                         example: 0
@@ -2598,80 +2598,80 @@ paths:
                         type: array
                         example:
                           -
-                            id: 5963
-                            name: 'Louis Young'
+                            id: 6016
+                            name: 'Georgia Clark'
                         items:
                           type: object
                           properties:
                             id:
                               type: integer
-                              example: 5963
+                              example: 6016
                             name:
                               type: string
-                              example: 'Louis Young'
+                              example: 'Georgia Clark'
                       writers:
                         type: array
                         example:
                           -
-                            id: 5964
-                            name: 'Julie Ellis'
+                            id: 6017
+                            name: 'Eleanor Harrison'
                         items:
                           type: object
                           properties:
                             id:
                               type: integer
-                              example: 5964
+                              example: 6017
                             name:
                               type: string
-                              example: 'Julie Ellis'
+                              example: 'Eleanor Harrison'
                       genres:
                         type: array
                         example:
                           -
-                            id: 133
-                            name: sapiente
+                            id: 99
+                            name: nemo
                         items:
                           type: object
                           properties:
                             id:
                               type: integer
-                              example: 133
+                              example: 99
                             name:
                               type: string
-                              example: sapiente
+                              example: nemo
                       languages:
                         type: array
                         example:
                           -
-                            id: 180
-                            name: ut
+                            id: 146
+                            name: sit
                         items:
                           type: object
                           properties:
                             id:
                               type: integer
-                              example: 180
+                              example: 146
                             name:
                               type: string
-                              example: ut
+                              example: sit
                       links:
                         type: object
                         properties:
                           self:
                             type: string
-                            example: 'http://api.trovster.com/movies/3948'
+                            example: 'http://api.trovster.com/movies/3866'
                           permalink:
                             type: string
-                            example: 'http://www.trovster.com/movies/id:3948/molestiae-deserunt-facilis'
+                            example: 'http://www.trovster.com/movies/id:3866/et-dolore-voluptatem'
                           imdb:
                             type: string
-                            example: 'https://www.imdb.com/title/tt6962136'
+                            example: 'https://www.imdb.com/title/tt2609759'
                           tmdb:
                             type: string
-                            example: 'https://www.themoviedb.org/movie/3876'
+                            example: 'https://www.themoviedb.org/movie/9454'
                           letterboxd:
                             type: string
-                            example: 'https://boxd.it/2650'
+                            example: 'https://boxd.it/2471'
       tags:
         - Movies
     parameters:
@@ -2698,26 +2698,26 @@ paths:
                 type: object
                 example:
                   data:
-                    date: '2024-04-23T06:07:17.000000Z'
-                    rating: 2
-                    type: Netflix
+                    date: '2024-08-02T16:21:21.000000Z'
+                    rating: 10
+                    type: Disney+
                     movie:
-                      id: 3945
-                      title: 'suscipit qui porro'
-                      summary: 'Distinctio illum ipsum nam consequatur odio eum officiis. Ut labore in rerum expedita tenetur et voluptatem. Facilis perferendis maxime inventore reiciendis. Quod omnis magnam perferendis ea earum autem. Numquam autem magni omnis voluptatibus. Excepturi nobis illo totam odit explicabo minus officia aperiam. Nihil vel nam rerum dolor porro.'
-                      tagline: 'Rem cum debitis nemo.'
-                      year: 1987
-                      runtime: 216
+                      id: 3863
+                      title: 'consequatur ut amet'
+                      summary: 'Reiciendis esse molestiae fugiat saepe pariatur aliquid neque. Voluptatibus ipsa et iure itaque temporibus aliquam. Sit quibusdam occaecati et autem veniam. Est debitis eveniet ex a commodi odit quia.'
+                      tagline: 'Et sint accusamus a animi.'
+                      year: 2004
+                      runtime: 79
                       rating: 0
                       count: 0
                       poster: null
                       still: null
                       links:
-                        self: 'https://api.trovster.com/movies/3945'
-                        permalink: 'https://www.trovster.com/movies/id:3945/suscipit-qui-porro'
-                        imdb: 'https://www.imdb.com/title/tt7770300'
-                        tmdb: 'https://www.themoviedb.org/movie/4883'
-                        letterboxd: 'https://boxd.it/9569'
+                        self: 'https://api.trovster.com/movies/3863'
+                        permalink: 'https://www.trovster.com/movies/id:3863/consequatur-ut-amet'
+                        imdb: 'https://www.imdb.com/title/tt8890761'
+                        tmdb: 'https://www.themoviedb.org/movie/7547'
+                        letterboxd: 'https://boxd.it/1254'
                   status: 201
                   message: Created
                 properties:
@@ -2726,34 +2726,34 @@ paths:
                     properties:
                       date:
                         type: string
-                        example: '2024-04-23T06:07:17.000000Z'
+                        example: '2024-08-02T16:21:21.000000Z'
                       rating:
                         type: integer
-                        example: 2
+                        example: 10
                       type:
                         type: string
-                        example: Netflix
+                        example: Disney+
                       movie:
                         type: object
                         properties:
                           id:
                             type: integer
-                            example: 3945
+                            example: 3863
                           title:
                             type: string
-                            example: 'suscipit qui porro'
+                            example: 'consequatur ut amet'
                           summary:
                             type: string
-                            example: 'Distinctio illum ipsum nam consequatur odio eum officiis. Ut labore in rerum expedita tenetur et voluptatem. Facilis perferendis maxime inventore reiciendis. Quod omnis magnam perferendis ea earum autem. Numquam autem magni omnis voluptatibus. Excepturi nobis illo totam odit explicabo minus officia aperiam. Nihil vel nam rerum dolor porro.'
+                            example: 'Reiciendis esse molestiae fugiat saepe pariatur aliquid neque. Voluptatibus ipsa et iure itaque temporibus aliquam. Sit quibusdam occaecati et autem veniam. Est debitis eveniet ex a commodi odit quia.'
                           tagline:
                             type: string
-                            example: 'Rem cum debitis nemo.'
+                            example: 'Et sint accusamus a animi.'
                           year:
                             type: integer
-                            example: 1987
+                            example: 2004
                           runtime:
                             type: integer
-                            example: 216
+                            example: 79
                           rating:
                             type: integer
                             example: 0
@@ -2771,19 +2771,19 @@ paths:
                             properties:
                               self:
                                 type: string
-                                example: 'https://api.trovster.com/movies/3945'
+                                example: 'https://api.trovster.com/movies/3863'
                               permalink:
                                 type: string
-                                example: 'https://www.trovster.com/movies/id:3945/suscipit-qui-porro'
+                                example: 'https://www.trovster.com/movies/id:3863/consequatur-ut-amet'
                               imdb:
                                 type: string
-                                example: 'https://www.imdb.com/title/tt7770300'
+                                example: 'https://www.imdb.com/title/tt8890761'
                               tmdb:
                                 type: string
-                                example: 'https://www.themoviedb.org/movie/4883'
+                                example: 'https://www.themoviedb.org/movie/7547'
                               letterboxd:
                                 type: string
-                                example: 'https://boxd.it/9569'
+                                example: 'https://boxd.it/1254'
                   status:
                     type: integer
                     example: 201
@@ -2802,11 +2802,11 @@ paths:
                 date:
                   type: string
                   description: 'Must be a valid date. Must be a date before or equal to <code>now</code>.'
-                  example: '2011-05-10'
+                  example: '1995-06-12'
                 rating:
                   type: integer
                   description: 'Must be between 1 and 10 digits.'
-                  example: 5
+                  example: 2
                 type:
                   type: string
                   description: ''
