@@ -25,8 +25,8 @@
     "test": "echo \"Warning: No tests\" && exit 0"
   },
   "devDependencies": {
-    "@stoplight/elements": "^8.1.0",
-    "fs-extra": "^11.2.0",
+    "@stoplight/elements": "^8.5.2",
+    "fs-extra": "^11.4.0",
     "http-server": "^14.1.1"
   }
 }
